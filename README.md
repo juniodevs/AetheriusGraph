@@ -47,7 +47,7 @@ AetheriusGraph maps gods, daedric princes, dragons, heroes, factions, and artifa
 ### Installation
 
 ```bash
-git clone https://github.com/your-username/AetheriusGraph.git
+git clone https://github.com/juniodevs/AetheriusGraph.git
 cd AetheriusGraph
 npm install
 ```

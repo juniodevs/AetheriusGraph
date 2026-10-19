@@ -69,32 +69,43 @@ export const Header: React.FC<HeaderProps> = ({
           gap: '16px',
         }}
       >
-        <div style={{ display: 'flex', alignItems: 'baseline', gap: '14px' }}>
-          <h1
+        <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+          <img
+            src="/favicon.svg"
+            alt="AetheriusGraph emblem"
             style={{
-              fontFamily: 'var(--font-title)',
-              fontSize: '22px',
-              fontWeight: 700,
-              letterSpacing: '0.12em',
-              color: '#f8fafc',
-              textTransform: 'uppercase',
-              margin: 0,
-              textShadow: '0 0 14px rgba(200, 155, 60, 0.35)',
+              width: '28px',
+              height: '28px',
+              filter: 'drop-shadow(0 0 10px rgba(250, 204, 21, 0.45))',
             }}
-          >
-            AetheriusGraph
-          </h1>
-          <span
-            style={{
-              fontFamily: 'var(--font-sans)',
-              fontSize: '11px',
-              color: 'var(--text-muted)',
-              letterSpacing: '0.08em',
-              textTransform: 'uppercase',
-            }}
-          >
-            Celestial Lore Sphere of The Elder Scrolls
-          </span>
+          />
+          <div style={{ display: 'flex', alignItems: 'baseline', gap: '14px' }}>
+            <h1
+              style={{
+                fontFamily: 'var(--font-title)',
+                fontSize: '22px',
+                fontWeight: 700,
+                letterSpacing: '0.12em',
+                color: '#f8fafc',
+                textTransform: 'uppercase',
+                margin: 0,
+                textShadow: '0 0 14px rgba(200, 155, 60, 0.35)',
+              }}
+            >
+              AetheriusGraph
+            </h1>
+            <span
+              style={{
+                fontFamily: 'var(--font-sans)',
+                fontSize: '11px',
+                color: 'var(--text-muted)',
+                letterSpacing: '0.08em',
+                textTransform: 'uppercase',
+              }}
+            >
+              Celestial Lore Sphere of The Elder Scrolls
+            </span>
+          </div>
         </div>
 
         <div ref={searchRef} style={{ position: 'relative', width: '320px' }}>
