@@ -1,0 +1,1774 @@
+{
+  "metadata": {
+    "title": "Aetherius: Skyrim Perk Galaxy",
+    "version": "2.0.0",
+    "source": "Skyrim Perk Tree & UESP Lore",
+    "guardians": {
+      "mage": {
+        "name": "O Mago",
+        "subtitle": "Artes Arcanas e Thu'um",
+        "color": "#38bdf8",
+        "center": [
+          -220,
+          75,
+          10
+        ]
+      },
+      "warrior": {
+        "name": "O Guerreiro",
+        "subtitle": "Poder Marcial e Honra",
+        "color": "#f59e0b",
+        "center": [
+          0,
+          85,
+          20
+        ]
+      },
+      "thief": {
+        "name": "O Ladrão",
+        "subtitle": "Sombras e Subterfúgio",
+        "color": "#10b981",
+        "center": [
+          220,
+          75,
+          10
+        ]
+      }
+    },
+    "total_nodes": 83,
+    "total_edges": 53
+  },
+  "nodes": [
+    {
+      "id": "akatosh",
+      "name": "Akatosh",
+      "title": "Lore:Akatosh",
+      "type": "deity",
+      "cluster": "mage",
+      "cluster_name": "O Mago: Artes Arcanas e a Voz",
+      "color": "#38bdf8",
+      "position": [
+        -220,
+        160,
+        15
+      ],
+      "summary": "Akatosh, known as Auri-El (or Auriel) to the Mer, Bormahu (Our Father) to the dragons, the great Dragon of Time to the Nedes, Alkosh to the Khajiit, is the chief deity of the Eight or Nine Divines (the prescribed religious cults of Cyrodiil and its provinces). He is present in most Tamrielic religions. His avatar is a golden dragon, and he is often called the Dragon God of Time,, Father Akatosh, and the Lord of the Dragons. He is generally considered to be the first of the gods to form in the Beginning Place; some even claim he established it. After his formation, other spirits found the process to be easier and the various pantheons of the world emerged. The Aedric spirit is the ultimate God of the Cyrodilic Empire, where he embodies the qualities of endurance, invincibility, and everlasting...",
+      "image": "https://images.uesp.net/thumb/6/62/LG-cardart-Avatar_of_Akatosh_02.jpg/400px-LG-cardart-Avatar_of_Akatosh_02.jpg",
+      "importance": 12
+    },
+    {
+      "id": "julianos",
+      "name": "Julianos",
+      "title": "Lore:Julianos",
+      "type": "deity",
+      "cluster": "mage",
+      "cluster_name": "O Mago: Artes Arcanas e a Voz",
+      "color": "#38bdf8",
+      "position": [
+        -250,
+        140,
+        10
+      ],
+      "summary": "Julianos, Aedric God of Wisdom and Logic, is one of the Cyrodilic Divines, governing the realms of literature, law, history, and contradiction. He is usually associated with magic, and thus is often revered by wizards. Jhunal, the Nordic father of language and mathematics, fell out of favor in the Nordic pantheon, after which he became Julianos of the Divines. Monastic orders founded by Tiber Septim and dedicated to Julianos were known to have served once as the keepers of the Elder Scrolls. He is particularly venerated among many Imperials and Bretons, but he also sees worship among the Forebear Redguards. As a Divine, he represents the virtue of learning, scholarship, and justice. His domains include sorcery, alchemy and enchantment. He is said to \"incant the Damned Equation\". His symbol...",
+      "image": "https://images.uesp.net/thumb/d/dd/MER-art-The_Hierophant.jpg/233px-MER-art-The_Hierophant.jpg",
+      "importance": 12
+    },
+    {
+      "id": "magnus",
+      "name": "Magnus",
+      "title": "Lore:Magnus",
+      "type": "deity",
+      "cluster": "mage",
+      "cluster_name": "O Mago: Artes Arcanas e a Voz",
+      "color": "#38bdf8",
+      "position": [
+        -190,
+        145,
+        10
+      ],
+      "summary": "Magnus no universo de Skyrim.",
+      "image": "",
+      "importance": 12
+    },
+    {
+      "id": "hermaeus_mora",
+      "name": "Hermaeus Mora",
+      "title": "Lore:Hermaeus Mora",
+      "type": "daedra",
+      "cluster": "mage",
+      "cluster_name": "O Mago: Artes Arcanas e a Voz",
+      "color": "#38bdf8",
+      "position": [
+        -275,
+        110,
+        5
+      ],
+      "summary": "Hermaeus Mora (sometimes spelled \"Hoermius\", \"Hormaius\", \"Herm'us\", or \"Herma Mora\") is the Daedric Prince of Forbidden Knowledge, hidden shoals, whirlpools, and sudden squalls. His sphere also encompasses destiny; he scries the tides of Fate, weaving through the past and future as interpreted in the stars and heavens, and his dominion is said to hold \"the treasures of knowledge and memory\". His curiosity is insatiable and he seeks all knowledge, and not to change but to observe, so that all becomes known. He is known by many titles, such as the Demon of Knowledge, the One Who Knows, the Master of the Tides of Fate, Gardener of Men, Prince of Fate, Lord of Secrets, the Keeper of Forbidden Knowledge, the Golden Eye, the Great Eye, the Eye that Wanders, the Eye-of-All or Eye-Who-Sees-All, Ur...",
+      "image": "https://images.uesp.net/thumb/9/91/ON-trailer-Hermaeus_Mora.jpg/400px-ON-trailer-Hermaeus_Mora.jpg",
+      "importance": 12
+    },
+    {
+      "id": "miraak",
+      "name": "Miraak",
+      "title": "Skyrim:Miraak",
+      "type": "character",
+      "cluster": "mage",
+      "cluster_name": "O Mago: Artes Arcanas e a Voz",
+      "color": "#38bdf8",
+      "position": [
+        -260,
+        85,
+        8
+      ],
+      "summary": "Miraak may refer to two things:",
+      "image": "",
+      "importance": 8
+    },
+    {
+      "id": "alduin",
+      "name": "Alduin",
+      "title": "Skyrim:Alduin",
+      "type": "dragon",
+      "cluster": "mage",
+      "cluster_name": "O Mago: Artes Arcanas e a Voz",
+      "color": "#38bdf8",
+      "position": [
+        -210,
+        120,
+        18
+      ],
+      "summary": "Alduin, or the World-Eater, as he is known to the residents of Skyrim, is an immensely powerful Dragon, and the main antagonist of the Main Quest. He is depicted as a malevolent force who destroys the world periodically, and the Nords believe that his reappearance heralds the end of time. He is the self-proclaimed First-Born of Akatosh. His name can be separated into \"Al-Du-In\", which means \"Destroyer-Devour-Master\" in Dragon Language.",
+      "image": "https://images.uesp.net/thumb/5/54/SR-creature-Alduin.jpg/400px-SR-creature-Alduin.jpg",
+      "importance": 12
+    },
+    {
+      "id": "paarthurnax",
+      "name": "Paarthurnax",
+      "title": "Skyrim:Paarthurnax",
+      "type": "dragon",
+      "cluster": "mage",
+      "cluster_name": "O Mago: Artes Arcanas e a Voz",
+      "color": "#38bdf8",
+      "position": [
+        -175,
+        110,
+        16
+      ],
+      "summary": "Paarthurnax may refer to two things:",
+      "image": "",
+      "importance": 12
+    },
+    {
+      "id": "odahviing",
+      "name": "Odahviing",
+      "title": "Skyrim:Odahviing",
+      "type": "dragon",
+      "cluster": "mage",
+      "cluster_name": "O Mago: Artes Arcanas e a Voz",
+      "color": "#38bdf8",
+      "position": [
+        -160,
+        90,
+        12
+      ],
+      "summary": "Odahviing is a Dragon that becomes your ally as part of the main quest. He can be summoned with the Call Dragon shout only while you're outdoors. This shout is simply his name, Od-Ah-Viing, Snow-Hunter-Wing. He can be seen flying around the Throat of the World, awaiting your call, once the main quest is complete. He can be very useful at any level as he is impossible to kill and won't leave you until all nearby enemies are dead. He uses the Fire Breath shout and standard dragon melee attacks as his weapons.",
+      "image": "https://images.uesp.net/thumb/c/c1/SR-creature-Odahviing_02.jpg/400px-SR-creature-Odahviing_02.jpg",
+      "importance": 12
+    },
+    {
+      "id": "savos_aren",
+      "name": "Savos Aren",
+      "title": "Skyrim:Savos Aren",
+      "type": "character",
+      "cluster": "mage",
+      "cluster_name": "O Mago: Artes Arcanas e a Voz",
+      "color": "#38bdf8",
+      "position": [
+        -220,
+        80,
+        10
+      ],
+      "summary": "Savos Aren is a Dark Elf conjurer and the current Arch-Mage of the College of Winterhold. Always buried in work and his own thoughts, Savos has entrusted Master Wizard Mirabelle Ervine with most of his daily duties, a decision that has left a lot of the lesser-ranked College members quite puzzled and frustrated. During Aren's leadership of the College of Winterhold, the Thalmor sent Ancano, one of their agents, to be his \"advisor\", though Aren seems strangely unaware of his hidden agenda. Unfortunately, when you bring in The Eye of Magnus, Ancano powers himself with the artifact and Savos Aren will realize his advisor's true intentions too late.",
+      "image": "https://images.uesp.net/thumb/1/11/SR-npc-Savos_Aren.jpg/400px-SR-npc-Savos_Aren.jpg",
+      "importance": 8
+    },
+    {
+      "id": "mirabelle_ervine",
+      "name": "Mirabelle Ervine",
+      "title": "Skyrim:Mirabelle Ervine",
+      "type": "character",
+      "cluster": "mage",
+      "cluster_name": "O Mago: Artes Arcanas e a Voz",
+      "color": "#38bdf8",
+      "position": [
+        -240,
+        65,
+        8
+      ],
+      "summary": "Mirabelle Ervine is a Breton elemental mage and serves as Master Wizard of the College of Winterhold, reporting directly to Arch-Mage Savos Aren. After first gaining entrance into the college through Faralda, Mirabelle will welcome you to the premises, provide you with your robes, and give you a tour.",
+      "image": "https://images.uesp.net/thumb/9/90/SR-npc-Mirabelle_Ervine.jpg/400px-SR-npc-Mirabelle_Ervine.jpg",
+      "importance": 8
+    },
+    {
+      "id": "tolfdir",
+      "name": "Tolfdir",
+      "title": "Skyrim:Tolfdir",
+      "type": "character",
+      "cluster": "mage",
+      "cluster_name": "O Mago: Artes Arcanas e a Voz",
+      "color": "#38bdf8",
+      "position": [
+        -200,
+        60,
+        12
+      ],
+      "summary": "Tolfdir is an elderly mage who lives in the College of Winterhold. He is a professor and serves as the quest giver for the first few quests of that faction.",
+      "image": "https://images.uesp.net/thumb/3/36/SR-npc-Tolfdir.jpg/400px-SR-npc-Tolfdir.jpg",
+      "importance": 8
+    },
+    {
+      "id": "ancano",
+      "name": "Ancano",
+      "title": "Skyrim:Ancano",
+      "type": "character",
+      "cluster": "mage",
+      "cluster_name": "O Mago: Artes Arcanas e a Voz",
+      "color": "#38bdf8",
+      "position": [
+        -255,
+        45,
+        6
+      ],
+      "summary": "Ancano is a High Elf elemental mage and an agent of the Thalmor. He resides at the College of Winterhold, where he serves as an \"advisor\" to the Arch-Mage. The College community demonstrates a palpable mistrust toward him due to his Thalmor allegiance. As the College quest line unfolds, it becomes increasingly clear that Ancano is involved in a sinister plot on behalf of the Thalmor; and that the discovery of a strange orb underneath Saarthal is key to some ominous scheme.",
+      "image": "https://images.uesp.net/thumb/c/c0/SR-npc-Ancano.jpg/400px-SR-npc-Ancano.jpg",
+      "importance": 8
+    },
+    {
+      "id": "college_of_winterhold",
+      "name": "Colégio de Winterhold",
+      "title": "Skyrim:College of Winterhold",
+      "type": "faction",
+      "cluster": "mage",
+      "cluster_name": "O Mago: Artes Arcanas e a Voz",
+      "color": "#38bdf8",
+      "position": [
+        -220,
+        45,
+        10
+      ],
+      "summary": "College of Winterhold may refer to two things:",
+      "image": "",
+      "importance": 10
+    },
+    {
+      "id": "winterhold",
+      "name": "Winterhold",
+      "title": "Skyrim:Winterhold",
+      "type": "location",
+      "cluster": "mage",
+      "cluster_name": "O Mago: Artes Arcanas e a Voz",
+      "color": "#38bdf8",
+      "position": [
+        -240,
+        25,
+        8
+      ],
+      "summary": "Winterhold is a city on the northeast coast of Skyrim, and the capital of Winterhold hold. It is initially aligned with the Stormcloaks under Jarl Korir. It was once a large, bustling, and prosperous city. In 4E 122, a cataclysmic event known as the \"Great Collapse\" occurred, in which most of the city fell into the Sea of Ghosts. Winterhold now only consists of a few rudimentary buildings and the College of Winterhold, one of the only original structures still standing. Many of the remaining local residents suspect the College caused the city's destruction, but the College insists the event was caused by the earthquake in Vivec and subsequent eruption of Red Mountain in Morrowind. The few remaining residents of Winterhold can usually be found drinking their sorrows away in The Frozen Hearth...",
+      "image": "https://images.uesp.net/thumb/1/10/SR-symbol-Winterhold.png/400px-SR-symbol-Winterhold.png",
+      "importance": 10
+    },
+    {
+      "id": "arngeir",
+      "name": "Arngeir",
+      "title": "Skyrim:Arngeir",
+      "type": "character",
+      "cluster": "mage",
+      "cluster_name": "O Mago: Artes Arcanas e a Voz",
+      "color": "#38bdf8",
+      "position": [
+        -185,
+        40,
+        14
+      ],
+      "summary": "Arngeir is a powerful Greybeard elder who resides in High Hrothgar. He tutors you in the art of using the Voice and acts as the Greybeards' representative since he is the only one of the four who can speak safely. He is the right hand of Paarthurnax and has taken it upon himself to zealously guard the Throat of the World.",
+      "image": "https://images.uesp.net/thumb/d/d1/SR-npc-Arngeir.jpg/400px-SR-npc-Arngeir.jpg",
+      "importance": 8
+    },
+    {
+      "id": "greybeards",
+      "name": "Greybeards",
+      "title": "Skyrim:Greybeards",
+      "type": "faction",
+      "cluster": "mage",
+      "cluster_name": "O Mago: Artes Arcanas e a Voz",
+      "color": "#38bdf8",
+      "position": [
+        -170,
+        30,
+        12
+      ],
+      "summary": "The Greybeards, an ancient and honored cult of monks, live at the ancient monastery of High Hrothgar, high on the Throat of the World. They are the most famous of the Tongues, or masters of the Voice. Jurgen Windcaller founded the order in response to the Nord army's defeat at the Battle of Red Mountain, preaching a philosophy known as the Way of the Voice, a lifestyle of meditative study of the Voice which the Greybeards carry on to this day.",
+      "image": "https://images.uesp.net/thumb/a/a5/SR-npc-Greybeards.jpg/400px-SR-npc-Greybeards.jpg",
+      "importance": 10
+    },
+    {
+      "id": "high_hrothgar",
+      "name": "High Hrothgar",
+      "title": "Skyrim:High Hrothgar",
+      "type": "location",
+      "cluster": "mage",
+      "cluster_name": "O Mago: Artes Arcanas e a Voz",
+      "color": "#38bdf8",
+      "position": [
+        -175,
+        10,
+        14
+      ],
+      "summary": "High Hrothgar is a small settlement southeast of Whiterun roughly halfway up the Throat of the World. It is a major landmark and home to the reclusive Greybeards, who are masters of The Voice.",
+      "image": "https://images.uesp.net/thumb/5/50/SR-place-High_Hrothgar.jpg/400px-SR-place-High_Hrothgar.jpg",
+      "importance": 10
+    },
+    {
+      "id": "the_blades",
+      "name": "The Blades",
+      "title": "Skyrim:The Blades",
+      "type": "faction",
+      "cluster": "mage",
+      "cluster_name": "O Mago: Artes Arcanas e a Voz",
+      "color": "#38bdf8",
+      "position": [
+        -150,
+        55,
+        15
+      ],
+      "summary": "The Blades no universo de Skyrim.",
+      "image": "",
+      "importance": 10
+    },
+    {
+      "id": "delphine",
+      "name": "Delphine",
+      "title": "Skyrim:Delphine",
+      "type": "character",
+      "cluster": "mage",
+      "cluster_name": "O Mago: Artes Arcanas e a Voz",
+      "color": "#38bdf8",
+      "position": [
+        -145,
+        75,
+        14
+      ],
+      "summary": "Delphine, a Breton, is likely the first innkeeper that you will meet in the game. She initially lives in Riverwood at the Sleeping Giant Inn and can rent you a room for ten septims. At the inn, Delphine starts off her day at 6am with breakfast for an hour, following which she will spend most of her time sweeping floors, wiping tabletops, using the alchemy lab, and often nagging at her barkeeper Orgnar. At 6pm she has a one hour break for dinner, and resumes her work afterward. She goes to bed at midnight and sleeps for six hours, then wakes to repeat her schedule the following day.",
+      "image": "https://images.uesp.net/thumb/7/73/SR-npc-Delphine_02.jpg/400px-SR-npc-Delphine_02.jpg",
+      "importance": 8
+    },
+    {
+      "id": "esbern",
+      "name": "Esbern",
+      "title": "Skyrim:Esbern",
+      "type": "character",
+      "cluster": "mage",
+      "cluster_name": "O Mago: Artes Arcanas e a Voz",
+      "color": "#38bdf8",
+      "position": [
+        -135,
+        60,
+        12
+      ],
+      "summary": "Esbern, an elderly Nord conjurer, is a chronicler and agent of the Blades who has survived the investigations of the Thalmor by hiding in Riften's Ratway. Long obsessed with the foretold return of the dragon Alduin, the World-Eater, Esbern serves as your mentor, guide, and advisor. Despite this, once he learns of Paarthurnax's existence, he will demand that you slay him and will refuse you any aid until you have done so.",
+      "image": "https://images.uesp.net/thumb/6/69/SR-npc-Esbern.jpg/400px-SR-npc-Esbern.jpg",
+      "importance": 8
+    },
+    {
+      "id": "kynareth",
+      "name": "Kynareth",
+      "title": "Lore:Kynareth",
+      "type": "deity",
+      "cluster": "mage",
+      "cluster_name": "O Mago: Artes Arcanas e a Voz",
+      "color": "#38bdf8",
+      "position": [
+        -200,
+        10,
+        10
+      ],
+      "summary": "Kynareth is the goddess of the heavens, the winds, the sea, the elements, and the unseen spirits of the air. She is a member of the Divines and Patron of sailors and travelers. Kynareth is often invoked for auspicious stars at birth and for good fortune in daily life. In some legends, she is the first to agree to Lorkhan's divine plan to create the mortal plane, and provides the space in the void for its creation. Furthermore, she is associated with rain, a phenomenon that is said not to have occurred before the removal of Lorkhan's divine spark. Some sources describe Spriggans as creations of Kynareth.",
+      "image": "https://images.uesp.net/thumb/d/d6/MER-art-Queen_of_Voice.jpg/229px-MER-art-Queen_of_Voice.jpg",
+      "importance": 12
+    },
+    {
+      "id": "arkay",
+      "name": "Arkay",
+      "title": "Lore:Arkay",
+      "type": "deity",
+      "cluster": "mage",
+      "cluster_name": "O Mago: Artes Arcanas e a Voz",
+      "color": "#38bdf8",
+      "position": [
+        -270,
+        20,
+        5
+      ],
+      "summary": "Arkay (or Ark'ay), known as the Lord of the Wheel of Life, God of the Cycle of Birth and Death, Light of Lights, the Bringer of Light, and Lord of the Seasons, is a member of the Divines, and also a popular god in other cultures. Arkay is often more important in those cultures where his father, Akatosh, is either less related to time or where his time aspects are difficult to comprehend by the layman. He is the god of burials and funeral rites, and is generally associated with cyclical occasions, such as the passing of the seasons or life and death. His priests are staunch opponents of necromancy and all forms of the undead, and are empowered to bestow Arkay's blessings which prevent the forceful misuse of a mortal soul. Thus, any body buried by a priest observing the proper rituals is protected...",
+      "image": "https://images.uesp.net/thumb/a/aa/OB-Window-Arkay.jpg/167px-OB-Window-Arkay.jpg",
+      "importance": 12
+    },
+    {
+      "id": "azura",
+      "name": "Azura",
+      "title": "Lore:Azura",
+      "type": "daedra",
+      "cluster": "mage",
+      "cluster_name": "O Mago: Artes Arcanas e a Voz",
+      "color": "#38bdf8",
+      "position": [
+        -280,
+        60,
+        5
+      ],
+      "summary": "Azura of the Crimson Gate, also known as: Queen of Dawn and Dusk, the Mother Soul, Moonshadow, Mother of the Rose, Queen of the Night Sky, Twilight Queen, the Rim of all Holes, the Cosmic Severer, the Great Lady and called Azurah by the Khajiit, is a Daedric Prince whose sphere is dawn and dusk—the magic in-between realms of twilight—and is associated with mystery and magic, fate and prophecy, and vanity and egotism. Azura is one of the few Daedra who maintains the appearance of being \"good\" by mortal standards, and reportedly feels more concern for the well-being of her mortal subjects than other Daedric Princes. It is said she wants their love above all else, and for her worshippers to love themselves; it pains her when they do not. This attitude leads to an extremely devoted following. She...",
+      "image": "https://images.uesp.net/thumb/6/67/SR-place-Shrine_of_Azura_02.jpg/400px-SR-place-Shrine_of_Azura_02.jpg",
+      "importance": 12
+    },
+    {
+      "id": "meridia",
+      "name": "Meridia",
+      "title": "Lore:Meridia",
+      "type": "daedra",
+      "cluster": "mage",
+      "cluster_name": "O Mago: Artes Arcanas e a Voz",
+      "color": "#38bdf8",
+      "position": [
+        -295,
+        85,
+        2
+      ],
+      "summary": "Meridia, Lady of Infinite Energies, the Bright Lady, the Strict but Fair Arbiter of Inner Luminance, the Sunfire, the Radiant One, the Keeper, the Lady of Light, the Red Star, the Harbinger of Dawn, the Goddess Who Holds, the Mirror of the Lie, the Radiant Mother, and the Prince of Life is the Daedric Prince \"of Life and Light\", associated with the energies of living things. It is stated that her sphere is obscured to mortals. The Sunburst is her symbol. She has a great and everlasting hatred for the undead and will greatly reward any who eliminate them from the world. With fervor, she reveals purity within chaos, aiming to abolish false-life so that the Mundus may be reforged with the fire of new light. As such, Meridia has a reputation for benevolence, and is one of the few Daedric Princes...",
+      "image": "https://images.uesp.net/thumb/6/6f/ON-misc-Meridia_%28Anniversary_Art%29.jpg/300px-ON-misc-Meridia_%28Anniversary_Art%29.jpg",
+      "importance": 12
+    },
+    {
+      "id": "talos",
+      "name": "Talos",
+      "title": "Lore:Talos",
+      "type": "deity",
+      "cluster": "warrior",
+      "cluster_name": "O Guerreiro: Poder Marcial e Honra",
+      "color": "#f59e0b",
+      "position": [
+        0,
+        170,
+        25
+      ],
+      "summary": "Heir to the Seat of Sundered Kings, Talos (meaning Stormcrown in the language of the ancient Ehlnofey), also called King of Earth and Sky, Dragon of the North, the Dragon Prince, the Most High, and Lord of Shining Hosts, is the most important hero-god of Mankind. In life, he was Emperor Tiber Septim, who conquered all of Tamriel and founded the Third Empire, ushering in the Third Era. Talos, or Stormcrown, is the name given to him at birth in Atmora. Also called Ysmir, 'Dragon of the North', and General Talos. He is also referred to as 'the Grey Wind' and 'the Storm of Kyne' by the Greybeards.",
+      "image": "https://images.uesp.net/thumb/a/ad/SR-concept-Shrine_Of_Talos.jpg/291px-SR-concept-Shrine_Of_Talos.jpg",
+      "importance": 12
+    },
+    {
+      "id": "sovngarde",
+      "name": "Sovngarde",
+      "title": "Skyrim:Sovngarde",
+      "type": "location",
+      "cluster": "warrior",
+      "cluster_name": "O Guerreiro: Poder Marcial e Honra",
+      "color": "#f59e0b",
+      "position": [
+        0,
+        145,
+        22
+      ],
+      "summary": "Sovngarde may refer to two things:",
+      "image": "",
+      "importance": 10
+    },
+    {
+      "id": "torygg",
+      "name": "Alto Rei Torygg",
+      "title": "Skyrim:Torygg",
+      "type": "character",
+      "cluster": "warrior",
+      "cluster_name": "O Guerreiro: Poder Marcial e Honra",
+      "color": "#f59e0b",
+      "position": [
+        -30,
+        120,
+        18
+      ],
+      "summary": "...",
+      "image": "",
+      "importance": 8
+    },
+    {
+      "id": "elisif_the_fair",
+      "name": "Elisif the Fair",
+      "title": "Skyrim:Elisif the Fair",
+      "type": "character",
+      "cluster": "warrior",
+      "cluster_name": "O Guerreiro: Poder Marcial e Honra",
+      "color": "#f59e0b",
+      "position": [
+        -60,
+        100,
+        14
+      ],
+      "summary": "Elisif the Fair is the Nord Jarl of Solitude. She is the widow of High King Torygg, and rumors abound that she may take the reins of power in Skyrim herself. Elisif does not believe the time is quite right yet to formally declare her intentions, but does believe that becoming High Queen of Skyrim is her rightful place. She has misgivings about entrusting the war effort to General Tullius, but doesn't see any other option. She is popular among her people, although some of her supporters have concerns about her age and inexperience. Because of her inexperience, she can be quite overzealous in her desire to protect her people, with little regard for public resources. For example, when you first enter the Blue Palace, she can be seen promising a concerned citizen that she will send an entire legion...",
+      "image": "https://images.uesp.net/thumb/a/a9/SR-npc-Elisif_the_Fair.jpg/400px-SR-npc-Elisif_the_Fair.jpg",
+      "importance": 8
+    },
+    {
+      "id": "solitude",
+      "name": "Solitude",
+      "title": "Skyrim:Solitude",
+      "type": "location",
+      "cluster": "warrior",
+      "cluster_name": "O Guerreiro: Poder Marcial e Honra",
+      "color": "#f59e0b",
+      "position": [
+        -80,
+        80,
+        10
+      ],
+      "summary": "Solitude is a major city on the northwest coast of Skyrim, and the capital of both Haafingar and the entire province. It is the largest city in Skyrim and seat of the province's High King, and is built on a natural arch over the Sea of Ghosts. The ruler of Solitude is Jarl Elisif the Fair, widow to the late High King Torygg, with her throne in the Blue Palace.",
+      "image": "https://images.uesp.net/thumb/9/9b/SR-symbol-Solitude.png/400px-SR-symbol-Solitude.png",
+      "importance": 10
+    },
+    {
+      "id": "general_tullius",
+      "name": "General Tullius",
+      "title": "Skyrim:General Tullius",
+      "type": "character",
+      "cluster": "warrior",
+      "cluster_name": "O Guerreiro: Poder Marcial e Honra",
+      "color": "#f59e0b",
+      "position": [
+        -50,
+        75,
+        16
+      ],
+      "summary": "General Tullius is an Imperial General of the Legion. Originally from Cyrodiil, he was appointed Military Governor of Skyrim and tasked with crushing the Stormcloak Rebellion. Tullius firmly believes that Ulfric Stormcloak and his rebellion are a threat to the Empire which has to be eradicated, and that Ulfric is nothing more than a power-hungry usurper. Among supporters of the Empire, Tullius is commonly regarded as their best hope for victory. A very taciturn and serious man, he initially holds little interest in Nordic culture, viewing it as nonsense, but eventually he learns to respect it. Tullius also despises the Thalmor, and believes the Stormcloak Rebellion is a mere interlude in the Empire's real conflict with the Aldmeri Dominion, even going so far as to remark that they almost make...",
+      "image": "https://images.uesp.net/thumb/1/13/SR-npc-General_Tullius.jpg/400px-SR-npc-General_Tullius.jpg",
+      "importance": 8
+    },
+    {
+      "id": "legate_rikke",
+      "name": "Legate Rikke",
+      "title": "Skyrim:Legate Rikke",
+      "type": "character",
+      "cluster": "warrior",
+      "cluster_name": "O Guerreiro: Poder Marcial e Honra",
+      "color": "#f59e0b",
+      "position": [
+        -65,
+        55,
+        14
+      ],
+      "summary": "Legate Rikke, General Tullius' chief lieutenant, is a loyal Imperial officer as well as a Nord who firmly believes that Skyrim must remain part of the Empire. She personally knows the key players of the rebellion, Ulfric Stormcloak and Galmar Stone-Fist, as they were once friends and fought side by side in the Imperial Legion during The Great War. For full details on Rikke's involvement in the Civil War, see this section.",
+      "image": "https://images.uesp.net/thumb/b/bf/SR-npc-Legate_Rikke.jpg/400px-SR-npc-Legate_Rikke.jpg",
+      "importance": 8
+    },
+    {
+      "id": "imperial_legion",
+      "name": "Legião Imperial",
+      "title": "Skyrim:Imperial Legion",
+      "type": "faction",
+      "cluster": "warrior",
+      "cluster_name": "O Guerreiro: Poder Marcial e Honra",
+      "color": "#f59e0b",
+      "position": [
+        -45,
+        40,
+        15
+      ],
+      "summary": "The Imperial Legion is the military force of the Empire of Tamriel. Serving under the authority of the Emperor, the Legion, with its vast numbers, quality training, and rigid discipline, is considered one of the most powerful fighting forces ever assembled. A history and detailed description of the Legion is provided here.",
+      "image": "https://images.uesp.net/thumb/6/66/SR-banner-Imperial_Legion.png/200px-SR-banner-Imperial_Legion.png",
+      "importance": 10
+    },
+    {
+      "id": "ulfric_stormcloak",
+      "name": "Ulfric Stormcloak",
+      "title": "Skyrim:Ulfric Stormcloak",
+      "type": "character",
+      "cluster": "warrior",
+      "cluster_name": "O Guerreiro: Poder Marcial e Honra",
+      "color": "#f59e0b",
+      "position": [
+        35,
+        110,
+        20
+      ],
+      "summary": "Ulfric Stormcloak of the Stormcloak Clan is the rebellious Jarl of Windhelm who started the uprising against Imperial rule known as the Stormcloak Rebellion. An incredibly divisive and controversial figure, Ulfric leads the fight against the Empire in a bid for free Talos worship and political independence in Skyrim. For historical information on Ulfric, see the lore article.",
+      "image": "https://images.uesp.net/thumb/6/6e/SR-npc-Ulfric_Stormcloak.jpg/400px-SR-npc-Ulfric_Stormcloak.jpg",
+      "importance": 8
+    },
+    {
+      "id": "galmar_stone-fist",
+      "name": "Galmar Stone-Fist",
+      "title": "Skyrim:Galmar Stone-Fist",
+      "type": "character",
+      "cluster": "warrior",
+      "cluster_name": "O Guerreiro: Poder Marcial e Honra",
+      "color": "#f59e0b",
+      "position": [
+        65,
+        95,
+        16
+      ],
+      "summary": "Galmar Stone-Fist is a fierce, veteran Nord warrior who is the housecarl of Ulfric Stormcloak and the general of the Stormcloak uprising. In his younger years, Galmar fought for the Imperial Legion at the frontlines of the Great War, along with rebellion leader Ulfric Stormcloak and Rikke, the latter now a Legate in the Legion and the right hand of Galmar and Ulfric's archenemy, General Tullius. For full details on Galmar's involvement with the civil war, see this section.",
+      "image": "https://images.uesp.net/thumb/9/9a/SR-npc-Galmar_Stone-Fist.jpg/400px-SR-npc-Galmar_Stone-Fist.jpg",
+      "importance": 8
+    },
+    {
+      "id": "windhelm",
+      "name": "Windhelm",
+      "title": "Skyrim:Windhelm",
+      "type": "location",
+      "cluster": "warrior",
+      "cluster_name": "O Guerreiro: Poder Marcial e Honra",
+      "color": "#f59e0b",
+      "position": [
+        85,
+        80,
+        12
+      ],
+      "summary": "Windhelm is a major city in the northeast of Skyrim near the Dunmeth Pass to Morrowind, and the capital of Eastmarch. Lying near the coast at the northern tip of Eastmarch, the city is extremely cold and frequently experiences blizzards. The ruler of Windhelm is Jarl Ulfric Stormcloak, the leader of the Stormcloak Rebellion, who resides in the Palace of the Kings. The city does not comply with the Imperial ban on Talos worship and features a Temple of Talos, and anti-foreign sentiment is common among the Nord population.",
+      "image": "https://images.uesp.net/thumb/9/9b/SR-symbol-Windhelm.png/400px-SR-symbol-Windhelm.png",
+      "importance": 10
+    },
+    {
+      "id": "stormcloaks",
+      "name": "Stormcloaks",
+      "title": "Skyrim:Stormcloaks",
+      "type": "faction",
+      "cluster": "warrior",
+      "cluster_name": "O Guerreiro: Poder Marcial e Honra",
+      "color": "#f59e0b",
+      "position": [
+        50,
+        55,
+        18
+      ],
+      "summary": "The Stormcloaks are a rebel faction led by Ulfric Stormcloak that you have the option of joining. They seek to defeat the Imperial Legion that controls most of Skyrim, end the Empire's rule over the land, and turn Skyrim into an independent country. Most of the eastern half of Skyrim is currently under Stormcloak control, with the critical Whiterun Hold in central Skyrim remaining nominally neutral but friendly to Imperial traffic as the events of Skyrim unfold.",
+      "image": "https://images.uesp.net/thumb/9/93/SR-banner-Stormcloaks.png/200px-SR-banner-Stormcloaks.png",
+      "importance": 10
+    },
+    {
+      "id": "balgruuf_the_greater",
+      "name": "Balgruuf the Greater",
+      "title": "Skyrim:Balgruuf the Greater",
+      "type": "character",
+      "cluster": "warrior",
+      "cluster_name": "O Guerreiro: Poder Marcial e Honra",
+      "color": "#f59e0b",
+      "position": [
+        0,
+        90,
+        22
+      ],
+      "summary": "Balgruuf the Greater, a Nord warrior, is the Jarl of Whiterun, and a descendant of High King Olaf One-Eye. An admirer of the Greybeards, Balgruuf made the pilgrimage to High Hrothgar in his youth. He has carried on a rivalry with Ulfric Stormcloak since they both were young. He has multiple children, including Frothar, Dagny, and the youngest Nelkir, as well as a brother named Hrongar, who advises him at court. While considered to be an honorable warrior who puts his heart and soul into his service, he is also not considered a patient man. For more information, see the lore article.",
+      "image": "https://images.uesp.net/thumb/0/00/SR-npc-Balgruuf_the_Greater.jpg/400px-SR-npc-Balgruuf_the_Greater.jpg",
+      "importance": 8
+    },
+    {
+      "id": "proventus_avenicci",
+      "name": "Proventus Avenicci",
+      "title": "Skyrim:Proventus Avenicci",
+      "type": "character",
+      "cluster": "warrior",
+      "cluster_name": "O Guerreiro: Poder Marcial e Honra",
+      "color": "#f59e0b",
+      "position": [
+        -15,
+        70,
+        18
+      ],
+      "summary": "Proventus Avenicci is the Imperial steward to Jarl Balgruuf of Whiterun. He is also the father of Adrianne Avenicci, from whom he allegedly takes advice. He can be found in Dragonsreach and, when he is not with the Jarl, will usually be found sitting down at a table at the back part of the Great Porch, or eating in the large tables in the main part of Dragonsreach. He will sell you a house called Breezehome in the city for 5,000 gold. He will also sell upgrades to the house, but will only do so if he is inside Dragonsreach. The dialogue option to purchase housing upgrades will not be available if he is on the Great Porch or in the Dragonsreach Jarl's Quarters. Proventus will also sell you Tundra HomesteadCC for 7,500 gold at any time.",
+      "image": "https://images.uesp.net/thumb/d/da/SR-npc-Proventus_Avenicci.jpg/400px-SR-npc-Proventus_Avenicci.jpg",
+      "importance": 8
+    },
+    {
+      "id": "whiterun",
+      "name": "Whiterun",
+      "title": "Skyrim:Whiterun",
+      "type": "location",
+      "cluster": "warrior",
+      "cluster_name": "O Guerreiro: Poder Marcial e Honra",
+      "color": "#f59e0b",
+      "position": [
+        0,
+        50,
+        20
+      ],
+      "summary": "Whiterun is a major city in the center of Skyrim, and the capital of Whiterun Hold. Its central location makes it the province's major commercial hub, as well as a crucial strategic point in the Civil War between the Imperial Legion loyalists and Stormcloak rebels, as control of Whiterun Hold grants access to all surrounding lands. Whiterun is initially nominally aligned with the Empire, but Jarl Balgruuf the Greater seems to care more about the people of Whiterun than either side of the conflict, rendering the hold effectively neutral.",
+      "image": "https://images.uesp.net/thumb/c/cd/SR-symbol-Whiterun.png/400px-SR-symbol-Whiterun.png",
+      "importance": 10
+    },
+    {
+      "id": "kodlak_whitemane",
+      "name": "Kodlak Whitemane",
+      "title": "Skyrim:Kodlak Whitemane",
+      "type": "character",
+      "cluster": "warrior",
+      "cluster_name": "O Guerreiro: Poder Marcial e Honra",
+      "color": "#f59e0b",
+      "position": [
+        25,
+        35,
+        18
+      ],
+      "summary": "Kodlak Whitemane is a Nord warrior and a well-respected Harbinger of the Companions. He maintains the Companions' long-standing tradition of abstaining from political conflicts. He is also something of a philosopher, prone to pondering on the meaning of honor and nobility. As Harbinger, he maintains that family and honor are the most important things to the Companions, and that they should deal with problems head-on, finding honor in life through glory in battle.",
+      "image": "https://images.uesp.net/thumb/9/9c/SR-npc-Kodlak_Whitemane.jpg/400px-SR-npc-Kodlak_Whitemane.jpg",
+      "importance": 8
+    },
+    {
+      "id": "aela_the_huntress",
+      "name": "Aela the Huntress",
+      "title": "Skyrim:Aela the Huntress",
+      "type": "character",
+      "cluster": "warrior",
+      "cluster_name": "O Guerreiro: Poder Marcial e Honra",
+      "color": "#f59e0b",
+      "position": [
+        50,
+        30,
+        15
+      ],
+      "summary": "Aela the Huntress, a Nord thief, is one of the elite members of the legendary Companions who reside in Jorrvaskr, the overturned ship and mead hall in the Wind District of Whiterun. Aela is one of the highest-ranking members and as such, is a member of the secret group, the Circle, along with Skjor, Farkas, and Vilkas. She is a passionate hunter but does not always hunt for game, as a group of werewolf hunters have attracted her attention, for reasons you will discover as you progress through the Companions quest line, where she plays a huge part. She will also provide a variety of radiant quests, some of which you will have to complete to advance in rank. She will join you on many adventures and can be hired as your follower once the Companions quest line is completed. At that point, it is...",
+      "image": "https://images.uesp.net/thumb/5/52/SR-npc-Aela_the_Huntress.jpg/400px-SR-npc-Aela_the_Huntress.jpg",
+      "importance": 8
+    },
+    {
+      "id": "vilkas",
+      "name": "Vilkas",
+      "title": "Skyrim:Vilkas",
+      "type": "character",
+      "cluster": "warrior",
+      "cluster_name": "O Guerreiro: Poder Marcial e Honra",
+      "color": "#f59e0b",
+      "position": [
+        15,
+        15,
+        18
+      ],
+      "summary": "Vilkas is a Nord warrior and a werewolf, usually found within Jorrvaskr in Whiterun. He is a member of the Circle, a faction within the Companions, alongside his twin brother Farkas. Vilkas is a master trainer in the Two-handed skill. When the Companions questline is complete, he becomes a potential follower and marriage candidate.",
+      "image": "https://images.uesp.net/thumb/6/60/SR-npc-Vilkas.jpg/400px-SR-npc-Vilkas.jpg",
+      "importance": 8
+    },
+    {
+      "id": "farkas",
+      "name": "Farkas",
+      "title": "Skyrim:Farkas",
+      "type": "character",
+      "cluster": "warrior",
+      "cluster_name": "O Guerreiro: Poder Marcial e Honra",
+      "color": "#f59e0b",
+      "position": [
+        35,
+        10,
+        16
+      ],
+      "summary": "Farkas is a Nord and member of the Companions. While, as his twin brother Vilkas puts it, \"his brains are not his strong suit\", Farkas is respected as a skilled warrior.",
+      "image": "https://images.uesp.net/thumb/c/c2/SR-npc-Farkas.jpg/400px-SR-npc-Farkas.jpg",
+      "importance": 8
+    },
+    {
+      "id": "companions",
+      "name": "Companions",
+      "title": "Skyrim:Companions",
+      "type": "faction",
+      "cluster": "warrior",
+      "cluster_name": "O Guerreiro: Poder Marcial e Honra",
+      "color": "#f59e0b",
+      "position": [
+        25,
+        -5,
+        16
+      ],
+      "summary": "The Companions are a group of warriors who take on private and public contracts for the people of Skyrim, and who purportedly carry on the tradition of the Five Hundred Companions of Ysgramor. Although the two groups offer a similar service, the Fighters Guild historically had a strong presence in Skyrim until the Companions seemingly replaced it entirely in the Fourth Era. They are based in the city of Whiterun, within the mead hall Jorrvaskr. The most elite members are included in the Circle of Jorrvaskr, and the chief councilor and arbitrator is known as the Harbinger, after Ysgramor, the \"harbinger of us all\" and the only real recognized leader of the Companions. Each new Harbinger is chosen by the last.",
+      "image": "",
+      "importance": 10
+    },
+    {
+      "id": "hircine",
+      "name": "Hircine",
+      "title": "Lore:Hircine",
+      "type": "daedra",
+      "cluster": "warrior",
+      "cluster_name": "O Guerreiro: Poder Marcial e Honra",
+      "color": "#f59e0b",
+      "position": [
+        60,
+        -5,
+        12
+      ],
+      "summary": "Hircine, known as the Huntsman, Lord of the Hunt, Master of Beasts, Wolves' Father and the Master of the Chase, is a Daedric Prince whose sphere is the Hunt, the Sport of Daedra, the Greatest Game, and the Chase and Sacrifice of Mortals. His realm of Oblivion is the Hunting Grounds, an endless forest where the Prince and his Huntsmen hunt great beasts, people, and even other Daedra. Hircine is typically portrayed with a great spear and either the head or skull of an elk, the latter of which Khajiiti myths say belonged to Y'ffer's champion, the Graht-Elk.",
+      "image": "https://images.uesp.net/thumb/2/2e/BL-misc-Spirit_of_the_Hunt_Promo.png/400px-BL-misc-Spirit_of_the_Hunt_Promo.png",
+      "importance": 12
+    },
+    {
+      "id": "stendarr",
+      "name": "Stendarr",
+      "title": "Lore:Stendarr",
+      "type": "deity",
+      "cluster": "warrior",
+      "cluster_name": "O Guerreiro: Poder Marcial e Honra",
+      "color": "#f59e0b",
+      "position": [
+        -25,
+        25,
+        16
+      ],
+      "summary": "Stendarr, also known as Stendarr the Steadfast, is the God of Mercy, Charity, Well-Earned Luck, and Justice. He is also acclaimed as the God of Compassion, and Righteous Rule by Might and Merciful Forbearance. Stendarr is the Apologist of Men, patron of the Imperial Legion, magistrates, rulers, and knights errant, and one of the Divines.",
+      "image": "https://images.uesp.net/thumb/c/cb/OB-Window-Stendarr.jpg/167px-OB-Window-Stendarr.jpg",
+      "importance": 12
+    },
+    {
+      "id": "zenithar",
+      "name": "Zenithar",
+      "title": "Lore:Zenithar",
+      "type": "deity",
+      "cluster": "warrior",
+      "cluster_name": "O Guerreiro: Poder Marcial e Honra",
+      "color": "#f59e0b",
+      "position": [
+        -40,
+        10,
+        14
+      ],
+      "summary": "Zenithar, the God of Work and Commerce, the Provider of our Ease, is one of the Divines. The Trader God is frequently seen as the same deity as the Bosmeri god Z'en. In the Empire, however, Zenithar is considered a more cultivated god of merchants and middle nobility, being the deity of wealth, labor, commerce, communication, and community.",
+      "image": "https://images.uesp.net/thumb/0/0c/ON-item-Zeal_of_Zenithar_Decoration.jpg/400px-ON-item-Zeal_of_Zenithar_Decoration.jpg",
+      "importance": 12
+    },
+    {
+      "id": "markarth",
+      "name": "Markarth",
+      "title": "Skyrim:Markarth",
+      "type": "location",
+      "cluster": "warrior",
+      "cluster_name": "O Guerreiro: Poder Marcial e Honra",
+      "color": "#f59e0b",
+      "position": [
+        -95,
+        30,
+        8
+      ],
+      "summary": "Markarth is a major city in the southwest of Skyrim near the border of High Rock, and the capital of the Reach. It is housed in an ancient Dwemer city, making its architecture noticeably different from that of most cities in Skyrim, with much of the city carved into the surrounding rock. Jarl Igmund, the initial ruler of the Reach, is having issues with a group known as the Forsworn, who infest the nearby countryside and attack travelers on sight. Though many races populate the city, the people of Markarth are not fond of outsiders, and the guards treat them with hostility and suspicion.",
+      "image": "https://images.uesp.net/thumb/9/9f/SR-symbol-Markarth.png/394px-SR-symbol-Markarth.png",
+      "importance": 10
+    },
+    {
+      "id": "falkreath",
+      "name": "Falkreath",
+      "title": "Skyrim:Falkreath",
+      "type": "location",
+      "cluster": "warrior",
+      "cluster_name": "O Guerreiro: Poder Marcial e Honra",
+      "color": "#f59e0b",
+      "position": [
+        -70,
+        5,
+        10
+      ],
+      "summary": "Falkreath is a city in the south of Skyrim, and the capital of Falkreath Hold. It is initially aligned with the Empire under Jarl Siddgeir. Near the borders with Cyrodiil and Hammerfell, in the past it was considered a part of Cyrodiil, but now sits firmly within the borders of Skyrim. Falkreath's economy is centered around lumber retrieved from the surrounding forest. Falkreath's most distinguishing feature is its large cemetery housing generations of dead from throughout Skyrim; the cemetery is also an important cultural landmark for the residents of Falkreath, directly inspiring the names of several businesses and homes within the city.",
+      "image": "https://images.uesp.net/thumb/a/a6/SR-symbol-Falkreath.png/400px-SR-symbol-Falkreath.png",
+      "importance": 10
+    },
+    {
+      "id": "dawnstar",
+      "name": "Dawnstar",
+      "title": "Skyrim:Dawnstar",
+      "type": "location",
+      "cluster": "warrior",
+      "cluster_name": "O Guerreiro: Poder Marcial e Honra",
+      "color": "#f59e0b",
+      "position": [
+        45,
+        135,
+        16
+      ],
+      "summary": "Dawnstar is a city on the northern coast of Skyrim, and the capital of the Pale. It is initially aligned with the Stormcloaks under Jarl Skald. The city is a relatively small fishing and mining settlement with few services. The residents will report having horrible nightmares, which some initially blame on a witch's curse.",
+      "image": "https://images.uesp.net/thumb/1/19/SR-symbol-Dawnstar.png/400px-SR-symbol-Dawnstar.png",
+      "importance": 10
+    },
+    {
+      "id": "morthal",
+      "name": "Morthal",
+      "title": "Skyrim:Morthal",
+      "type": "location",
+      "cluster": "warrior",
+      "cluster_name": "O Guerreiro: Poder Marcial e Honra",
+      "color": "#f59e0b",
+      "position": [
+        -35,
+        140,
+        14
+      ],
+      "summary": "Morthal is a city in the north of Skyrim, and the capital of Hjaalmarch. It is initially aligned with the Empire, but Jarl Idgrod Ravencrone seems uninterested in the conflict, claiming to sense bigger things afoot in the world. Her reclusive nature and mysticism has fed a general perception that she is an ineffective ruler. Many residents are concerned about the war, which brings unwelcome outsiders, and would prefer to continue to live in isolation. The city itself is a fairly small, humble settlement of little economic or strategic importance besides its small lumber mill. Only the mill, an apothecary, and an inn support its weak economy. Sitting on the southern edge of the Drajkmyr marsh, Morthal is often shrouded in a thick fog. The ominous twisted trees and torches glowing in the fog...",
+      "image": "https://images.uesp.net/thumb/3/37/SR-symbol-Hjaalmarch.png/392px-SR-symbol-Hjaalmarch.png",
+      "importance": 10
+    },
+    {
+      "id": "nocturnal",
+      "name": "Nocturnal",
+      "title": "Lore:Nocturnal",
+      "type": "daedra",
+      "cluster": "thief",
+      "cluster_name": "O Ladrão: Sombras e Subterfúgio",
+      "color": "#10b981",
+      "position": [
+        220,
+        160,
+        15
+      ],
+      "summary": "Nocturnal is a Daedric Prince, or \"Daedric Princess\", whose sphere is the night, darkness, and mystery. She is also known as the Lady of the Night, the Mistress of Shadows, the Unfathomable Mistress of Shadows, the Shadow Thief, the Unfathomable, the Empress of Murk, the Shadow Queen, the Shadowy Hag (while donning her cowl), the Lady of the Twilight, the Daughter of Twilight, the Lady of Shadows, the Mistress of Mystery, the Mother of Shadows, Lady Luck, the Night Mistress, the Prince of Night and Darkness, and the Saint of Suspicion.",
+      "image": "https://images.uesp.net/thumb/6/6f/SR-npc-Nocturnal.jpg/400px-SR-npc-Nocturnal.jpg",
+      "importance": 12
+    },
+    {
+      "id": "the_night_mother",
+      "name": "The Night Mother",
+      "title": "Skyrim:The Night Mother",
+      "type": "deity",
+      "cluster": "thief",
+      "cluster_name": "O Ladrão: Sombras e Subterfúgio",
+      "color": "#10b981",
+      "position": [
+        255,
+        145,
+        10
+      ],
+      "summary": "The Night Mother no universo de Skyrim.",
+      "image": "",
+      "importance": 12
+    },
+    {
+      "id": "boethiah",
+      "name": "Boethiah",
+      "title": "Lore:Boethiah",
+      "type": "daedra",
+      "cluster": "thief",
+      "cluster_name": "O Ladrão: Sombras e Subterfúgio",
+      "color": "#10b981",
+      "position": [
+        190,
+        140,
+        12
+      ],
+      "summary": "Boethiah (sometimes spelled Boethia or Boet-hi-Ah), known as the Prince of Plots, the Daedra Prince of Cruelty and Torture, the Dark Warrior, Deceiver of Nations, Queen of Shadows, Goddess of Destruction, Hunger, and Fount of Inspiration, He-Who-Destroys and She-Who-Erases, Boethiah the Schemer, The Dark Mistress, and called Boethra by the Khajiit, is a Daedric Prince who rules over deceit, conspiracy, secret plots of murder, assassination, treason, and unlawful overthrow of authority. This sphere is destructive in nature, and Boethiah's destructiveness comes from inspiring the arms of mortal warriors. The Dark Warrior has been described as \"cold\" and \"impersonal\", \"cruel\", and one of the more \"demonic\" of the Daedra lords. Worshippers are known to hold bloody competitions in Boethiah's honor...",
+      "image": "https://images.uesp.net/thumb/7/78/LG-quest-Reive%27s_Wrath_03.jpg/400px-LG-quest-Reive%27s_Wrath_03.jpg",
+      "importance": 12
+    },
+    {
+      "id": "mephala",
+      "name": "Mephala",
+      "title": "Lore:Mephala",
+      "type": "daedra",
+      "cluster": "thief",
+      "cluster_name": "O Ladrão: Sombras e Subterfúgio",
+      "color": "#10b981",
+      "position": [
+        175,
+        115,
+        14
+      ],
+      "summary": "Mephala is a Daedric Prince who is associated with murder, lies, deception, sex, and secrets, and is always weaving a web of intrigue and terror. Though it is stated that her sphere is obscured to mortals. Mephala is also known as the Webspinner, Plot-Weaver, Androgyne, the Spinner, the Spider, the Teacher of the Secret Arts, the Queen of the Eight Shadows of Murder, the Silver Spider, the Spider Queen, the Spider God, the Dark One, the Whispering Lady, the Lady of Whispers, and the Queen of Oblivion. She is also referred to as the princess of secrets and she who weaves the sordid web of human affairs. Long, thin silver hair is a trait associated with Mephala's champions.",
+      "image": "https://images.uesp.net/thumb/6/64/ON-npc-Mephala_03.jpg/400px-ON-npc-Mephala_03.jpg",
+      "importance": 12
+    },
+    {
+      "id": "sithis",
+      "name": "Sithis",
+      "title": "Lore:Sithis",
+      "type": "deity",
+      "cluster": "thief",
+      "cluster_name": "O Ladrão: Sombras e Subterfúgio",
+      "color": "#10b981",
+      "position": [
+        285,
+        125,
+        5
+      ],
+      "summary": "Sithis no universo de Skyrim.",
+      "image": "",
+      "importance": 12
+    },
+    {
+      "id": "mercer_frey",
+      "name": "Mercer Frey",
+      "title": "Skyrim:Mercer Frey",
+      "type": "character",
+      "cluster": "thief",
+      "cluster_name": "O Ladrão: Sombras e Subterfúgio",
+      "color": "#10b981",
+      "position": [
+        200,
+        105,
+        12
+      ],
+      "summary": "Mercer Frey is a Breton rogue, and the initial guildmaster of the Thieves Guild. He can typically be found behind his desk in the Ragged Flagon Cistern. Mercer also owns Riftweald Manor in Riften. However, he is never seen at this location, instead tasking Vald with guarding it.",
+      "image": "https://images.uesp.net/thumb/9/94/SR-npc-Mercer_Frey.jpg/400px-SR-npc-Mercer_Frey.jpg",
+      "importance": 8
+    },
+    {
+      "id": "karliah",
+      "name": "Karliah",
+      "title": "Skyrim:Karliah",
+      "type": "character",
+      "cluster": "thief",
+      "cluster_name": "O Ladrão: Sombras e Subterfúgio",
+      "color": "#10b981",
+      "position": [
+        225,
+        95,
+        12
+      ],
+      "summary": "Karliah is a Dark Elf thief and a member of the Nightingales. She is also a former member of Skyrim's Thieves Guild but has spent the last 25 years in exile after allegedly murdering her former Guildmaster, Nightingale, and lover: Gallus. She will eventually become a quest giver and temporary follower after advancing in the Thieves Guild questline. After the main Guild quest she resides in Nightingale Hall.",
+      "image": "https://images.uesp.net/thumb/a/a6/SR-npc-Karliah_13.jpg/400px-SR-npc-Karliah_13.jpg",
+      "importance": 8
+    },
+    {
+      "id": "brynjolf",
+      "name": "Brynjolf",
+      "title": "Skyrim:Brynjolf",
+      "type": "character",
+      "cluster": "thief",
+      "cluster_name": "O Ladrão: Sombras e Subterfúgio",
+      "color": "#10b981",
+      "position": [
+        185,
+        80,
+        14
+      ],
+      "summary": "Brynjolf is a Nord thief, and a member of the Thieves Guild in Riften. He is initially found at a market stall in the center of Riften selling mysterious red elixirs, although he will usually approach you and inform you that he knows you didn't make all of your money legally (or if you don't have much gold on you, will offer you a way to make some). He has a rivalry with fellow merchant Madesi, who doubts Brynjolf's potions are real. Brynjolf will task you with stealing Madesi's ring as an initiation for joining the Thieves Guild. Once you join the Guild, he will move to the guild hall in Riften's Ratway.",
+      "image": "https://images.uesp.net/thumb/d/de/SR-npc-Brynjolf.jpg/400px-SR-npc-Brynjolf.jpg",
+      "importance": 8
+    },
+    {
+      "id": "thieves_guild",
+      "name": "Guilda dos Ladrões",
+      "title": "Skyrim:Thieves Guild",
+      "type": "faction",
+      "cluster": "thief",
+      "cluster_name": "O Ladrão: Sombras e Subterfúgio",
+      "color": "#10b981",
+      "position": [
+        210,
+        75,
+        12
+      ],
+      "summary": "Thieves Guild may refer to two things:",
+      "image": "",
+      "importance": 10
+    },
+    {
+      "id": "maven_black-briar",
+      "name": "Maven Black-Briar",
+      "title": "Skyrim:Maven Black-Briar",
+      "type": "character",
+      "cluster": "thief",
+      "cluster_name": "O Ladrão: Sombras e Subterfúgio",
+      "color": "#10b981",
+      "position": [
+        170,
+        60,
+        15
+      ],
+      "summary": "Maven Black-Briar is the matriarch of the Black-Briar family, and unofficially controls most of Riften. She is the mother of Hemming Black-Briar, Ingun and Sibbi. Maul is her right-hand man and enforces her will in the city. She has strong ties with both the Thieves Guild and the Dark Brotherhood, as well as being a personal friend of Jarl Laila Law-Giver, despite their political differences. She has her hands in every shady business in Riften, is involved in multiple quests, and is so influential that she will take over as Jarl if the Imperial Legion conquers the Rift.",
+      "image": "https://images.uesp.net/thumb/0/00/SR-npc-Maven_Black-Briar.jpg/400px-SR-npc-Maven_Black-Briar.jpg",
+      "importance": 8
+    },
+    {
+      "id": "riften",
+      "name": "Riften",
+      "title": "Skyrim:Riften",
+      "type": "location",
+      "cluster": "thief",
+      "cluster_name": "O Ladrão: Sombras e Subterfúgio",
+      "color": "#10b981",
+      "position": [
+        195,
+        45,
+        14
+      ],
+      "summary": "Riften is a major city in the southeast of Skyrim near the borders of Morrowind and Cyrodiil, and the capital of the Rift. It is home to Honorhall Orphanage, as well as the Thieves Guild, who inhabit the sewers beneath Riften known as the Ratway. Riften is also the seat of a powerful noble family, the Black-Briars. Maven, the head of the family, owns the Black-Briar Meadery and has ties to the Thieves Guild and the Dark Brotherhood. Jarl Laila Law-Giver is the initial ruler of the Rift; if the Imperials take over the hold, Maven replaces Laila as jarl. Maven is widely feared, as Maul notes: \"If she tells you to do something, you damn well better do exactly what she says.\"",
+      "image": "https://images.uesp.net/thumb/a/a6/SR-symbol-Riften.png/400px-SR-symbol-Riften.png",
+      "importance": 10
+    },
+    {
+      "id": "astrid",
+      "name": "Astrid",
+      "title": "Skyrim:Astrid",
+      "type": "character",
+      "cluster": "thief",
+      "cluster_name": "O Ladrão: Sombras e Subterfúgio",
+      "color": "#10b981",
+      "position": [
+        250,
+        95,
+        10
+      ],
+      "summary": "Astrid is a Nord assassin, the leader of the last remaining Dark Brotherhood Sanctuary in Tamriel, and the wife of former Companion Arnbjorn. She also initiates many of the quests in the Dark Brotherhood questline.",
+      "image": "https://images.uesp.net/thumb/e/e7/SR-npc-Astrid.jpg/400px-SR-npc-Astrid.jpg",
+      "importance": 8
+    },
+    {
+      "id": "cicero",
+      "name": "Cicero",
+      "title": "Skyrim:Cicero",
+      "type": "character",
+      "cluster": "thief",
+      "cluster_name": "O Ladrão: Sombras e Subterfúgio",
+      "color": "#10b981",
+      "position": [
+        270,
+        80,
+        8
+      ],
+      "summary": "Cicero is an Imperial assassin and Keeper of the Dark Brotherhood. As Keeper, he is responsible for caring for the Night Mother's body and casket. Little is known of him before 4E 186, when he started keeping a journal detailing some of his many contracts. For more information, see the lore article.",
+      "image": "https://images.uesp.net/thumb/9/98/SR-npc-Cicero.jpg/400px-SR-npc-Cicero.jpg",
+      "importance": 8
+    },
+    {
+      "id": "nazir",
+      "name": "Nazir",
+      "title": "Skyrim:Nazir",
+      "type": "character",
+      "cluster": "thief",
+      "cluster_name": "O Ladrão: Sombras e Subterfúgio",
+      "color": "#10b981",
+      "position": [
+        245,
+        65,
+        10
+      ],
+      "summary": "Nazir is a Redguard assassin and a member of the Dark Brotherhood. He will offer you contracts upon joining the Dark Brotherhood. He is also the master trainer in Light Armor.",
+      "image": "https://images.uesp.net/thumb/0/02/SR-npc-Nazir.jpg/400px-SR-npc-Nazir.jpg",
+      "importance": 8
+    },
+    {
+      "id": "dark_brotherhood",
+      "name": "Dark Brotherhood",
+      "title": "Skyrim:Dark Brotherhood",
+      "type": "faction",
+      "cluster": "thief",
+      "cluster_name": "O Ladrão: Sombras e Subterfúgio",
+      "color": "#10b981",
+      "position": [
+        265,
+        50,
+        8
+      ],
+      "summary": "The Dark Brotherhood is a guild of professional assassins which historically possessed considerable influence and power but has recently fallen on considerably harder times. It is similar to Morrowind's Morag Tong, but despite a common misconception, it is a completely separate organization; also, the legality of this organization is much more limited than that of its older cousin. The leader of the Dark Brotherhood was the Night Mother, but now that role has fallen to Astrid. The Dark Brotherhood also has a contact in the Riften Thieves Guild.",
+      "image": "",
+      "importance": 10
+    },
+    {
+      "id": "elenwen",
+      "name": "Elenwen",
+      "title": "Skyrim:Elenwen",
+      "type": "character",
+      "cluster": "thief",
+      "cluster_name": "O Ladrão: Sombras e Subterfúgio",
+      "color": "#10b981",
+      "position": [
+        150,
+        95,
+        16
+      ],
+      "summary": "Elenwen is a High Elf sorceress and First Emissary of the Thalmor in Skyrim. She resides in the Thalmor Embassy, in Haafingar hold. She often hosts lavish parties at the embassy, inviting Skyrim's most influential and powerful people. You infiltrate one of these parties during Diplomatic Immunity, using an ill-gotten invitation.",
+      "image": "https://images.uesp.net/thumb/7/7c/SR-npc-Elenwen.jpg/400px-SR-npc-Elenwen.jpg",
+      "importance": 8
+    },
+    {
+      "id": "thalmor",
+      "name": "Thalmor",
+      "title": "Skyrim:Thalmor",
+      "type": "faction",
+      "cluster": "thief",
+      "cluster_name": "O Ladrão: Sombras e Subterfúgio",
+      "color": "#10b981",
+      "position": [
+        140,
+        75,
+        16
+      ],
+      "summary": "The Thalmor is the combined government of the third Aldmeri Dominion and according to Ondolemar represents an alliance between Altmer and Bosmer regents. A militarist regime founded on beliefs of racial supremacy, the Thalmor seek to advance their power and influence across Tamriel with the specific intent of establishing the racial superiority of Mer over Man, \"one century at a time\".",
+      "image": "https://images.uesp.net/thumb/1/19/SR-place-Thalmor_Embassy.jpg/400px-SR-place-Thalmor_Embassy.jpg",
+      "importance": 10
+    },
+    {
+      "id": "molag_bal",
+      "name": "Molag Bal",
+      "title": "Lore:Molag Bal",
+      "type": "daedra",
+      "cluster": "thief",
+      "cluster_name": "O Ladrão: Sombras e Subterfúgio",
+      "color": "#10b981",
+      "position": [
+        290,
+        80,
+        4
+      ],
+      "summary": "Molag Bal (Stone-Fire, or literally the \"Fire Stone\")[nb 1] is the Daedric Prince whose sphere is the domination and enslavement of mortals. His ultimate desire is to harvest the souls of all mortals, bringing them within his sway by spreading seeds of strife and discord in the mortal realms. To this end, he obsessively collects soul gems, and has even dragged pieces of Nirn into his realm to satisfy his insatiable desire for conquest. The more souls he collects, the more he wants.",
+      "image": "https://images.uesp.net/thumb/6/67/ON-creature-Molag_Bal.jpg/400px-ON-creature-Molag_Bal.jpg",
+      "importance": 12
+    },
+    {
+      "id": "lord_harkon",
+      "name": "Lord Harkon",
+      "title": "Skyrim:Lord Harkon",
+      "type": "character",
+      "cluster": "thief",
+      "cluster_name": "O Ladrão: Sombras e Subterfúgio",
+      "color": "#10b981",
+      "position": [
+        280,
+        55,
+        6
+      ],
+      "summary": "Lord Harkon is an ancient Nordic pure-blood vampire and progenitor of the Volkihar bloodline in Skyrim. He lives in Volkihar Keep off the coast of Haafingar with the rest of his brood.",
+      "image": "https://images.uesp.net/thumb/f/f4/SR-npc-Lord_Harkon.jpg/400px-SR-npc-Lord_Harkon.jpg",
+      "importance": 8
+    },
+    {
+      "id": "serana",
+      "name": "Serana",
+      "title": "Skyrim:Serana",
+      "type": "character",
+      "cluster": "thief",
+      "cluster_name": "O Ladrão: Sombras e Subterfúgio",
+      "color": "#10b981",
+      "position": [
+        260,
+        30,
+        8
+      ],
+      "summary": "Serana is a Nord vampire found inside a sarcophagus in Dimhollow Cavern, where she is called Mysterious Woman until she shares her real name with you. Serana is the long lost daughter of Lord Harkon and Valerica, and is in possession of an Elder Scroll. Upon introduction, she will know if you are a vampire or not, and she will ask you to take her to her home.",
+      "image": "https://images.uesp.net/thumb/a/a1/SR-npc-Serana.jpg/400px-SR-npc-Serana.jpg",
+      "importance": 8
+    },
+    {
+      "id": "valerica",
+      "name": "Valerica",
+      "title": "Skyrim:Valerica",
+      "type": "character",
+      "cluster": "thief",
+      "cluster_name": "O Ladrão: Sombras e Subterfúgio",
+      "color": "#10b981",
+      "position": [
+        285,
+        20,
+        4
+      ],
+      "summary": "Valerica is a Nord vampire, wife to Lord Harkon and mother of Serana. She is found just outside the entrance of the Boneyard in the Soul Cairn when you go looking for her to find an Elder Scroll to be used by Lord Harkon. She does not have a very good relationship with her daughter because she hid her away from Lord Harkon for many years to keep him from retrieving her blood, which is needed for the ritual to block out the sun, despite the fact that Harkon is still unaware of that part of the prophecy. She also holds one of the Elder Scrolls needed for the prophecy. She is initially very disdainful and untrusting of you, regardless of which side you chose. She eventually realizes her error in judgement with Serana after a heated argument between the two, after which she has a bettered relationship...",
+      "image": "https://images.uesp.net/thumb/c/c7/SR-npc-Valerica.jpg/400px-SR-npc-Valerica.jpg",
+      "importance": 8
+    },
+    {
+      "id": "volkihar_clan",
+      "name": "Clã Volkihar",
+      "title": "Skyrim:Volkihar Clan",
+      "type": "faction",
+      "cluster": "thief",
+      "cluster_name": "O Ladrão: Sombras e Subterfúgio",
+      "color": "#10b981",
+      "position": [
+        270,
+        5,
+        6
+      ],
+      "summary": "Clã Volkihar no universo de Skyrim.",
+      "image": "",
+      "importance": 10
+    },
+    {
+      "id": "isran",
+      "name": "Isran",
+      "title": "Skyrim:Isran",
+      "type": "character",
+      "cluster": "thief",
+      "cluster_name": "O Ladrão: Sombras e Subterfúgio",
+      "color": "#10b981",
+      "position": [
+        220,
+        20,
+        12
+      ],
+      "summary": "Isran is a Redguard blacksmith, a former Vigilant of Stendarr, and leader of the Dawnguard. He is one of the primary quest givers for the Dawnguard and is also the person to see if you wish to join the organization. He also serves as a master trainer in Heavy Armor.",
+      "image": "https://images.uesp.net/thumb/7/74/SR-npc-Isran.jpg/400px-SR-npc-Isran.jpg",
+      "importance": 8
+    },
+    {
+      "id": "dawnguard_faction",
+      "name": "Dawnguard",
+      "title": "Skyrim:Dawnguard (faction)",
+      "type": "faction",
+      "cluster": "thief",
+      "cluster_name": "O Ladrão: Sombras e Subterfúgio",
+      "color": "#10b981",
+      "position": [
+        210,
+        0,
+        12
+      ],
+      "summary": "The Dawnguard is an order of vampire hunters living and operating from Fort Dawnguard. You may join them to fight against Lord Harkon and his plot to blot out the sun. The Dawnguard was re-formed by Isran in order to combat the growing vampire menace in Skyrim, and initially only consists of him, Celann, and Durak when you arrive. As time passes (regardless of which faction you join), more people join the Dawnguard. The Dawnguard also keeps two armored huskies as war dogs, three armored trolls (tamed by Gunmar), and partially shelters several refugees who fled there for relief from the vampire scourge. However, the latter are not permitted to enter the fort itself.",
+      "image": "",
+      "importance": 10
+    },
+    {
+      "id": "sanguine",
+      "name": "Sanguine",
+      "title": "Lore:Sanguine",
+      "type": "daedra",
+      "cluster": "thief",
+      "cluster_name": "O Ladrão: Sombras e Subterfúgio",
+      "color": "#10b981",
+      "position": [
+        155,
+        35,
+        14
+      ],
+      "summary": "Sanguine, known to his worshippers as the Lord of Revelry, Blood-Made-Pleasure, and he who tastes the Shaven Fruit, is a Daedric Prince whose sphere is hedonistic revelry, debauchery, wild orgies, and passionate indulgences of darker natures. As the Daedra Prince of Lust, Perversity, and Unnatural Sexual Relations, anything in excess is his motto. Sanguine is depicted as a portly yet muscular crimson-skinned man with a demonic head with horns, tusks, usually with a bottle in his hand or a whore under his thumb. He is thought to control thousands of small realms called the Myriad Realms of Revelry. He is known to be allied with Vaermina, while his enemies are Ebonarm, the House of Dibella and the Benevolence of Mara. His summoning day coincides with Heart's Day, which falls on the 16th of Sun...",
+      "image": "https://images.uesp.net/8/87/DF-prince-Sanguine.gif",
+      "importance": 12
+    },
+    {
+      "id": "namira",
+      "name": "Namira",
+      "title": "Lore:Namira",
+      "type": "daedra",
+      "cluster": "thief",
+      "cluster_name": "O Ladrão: Sombras e Subterfúgio",
+      "color": "#10b981",
+      "position": [
+        180,
+        15,
+        14
+      ],
+      "summary": "Namira is a Daedric Prince whose sphere is the ancient Darkness. She is also known as the Daedric Prince of Hunger, the Mistress of Decay or Lady of Decay, the Spirit Daedra, and the Goddess of the Dark. Namira is the ruler of sundry dark and shadowy spirits, and is often associated with slugs, spiders, and other things that inspire mortals with instinctive revulsion. The symbol of a bat is featured on her emblem. The Khajiit believe that all creatures who feed on rotten flesh are her spies. She is the Daedric Prince of spirits and shadows, as well as the patron of vermin and squalor. Namira also appears to be associated with beggars and the beggaring gifts of disease, pity, and disregard. Namira and her shadowy endeavors are often recognized to bear some association with eternity. Somewhat...",
+      "image": "https://images.uesp.net/thumb/a/a8/ON-statue-Namira.jpg/400px-ON-statue-Namira.jpg",
+      "importance": 12
+    },
+    {
+      "id": "clavicus_vile",
+      "name": "Clavicus Vile",
+      "title": "Lore:Clavicus Vile",
+      "type": "daedra",
+      "cluster": "thief",
+      "cluster_name": "O Ladrão: Sombras e Subterfúgio",
+      "color": "#10b981",
+      "position": [
+        140,
+        20,
+        14
+      ],
+      "summary": "Clavicus Vile, also known as the Prince of Trickery and Bargains, the Consummate Politician of Oblivion, the Master of Insidious Wishes, and Child-god of the Morningstar, is a Daedric Prince whose sphere is the granting of power and wishes through ritual invocations and pacts. He is seen as one of the more \"sophisticated\" of the Daedric Princes, and often appears in the guise of a jovial Skaafin, a race of horned Daedra that inhabit the Fields of Regret, his realm in Oblivion.",
+      "image": "https://images.uesp.net/thumb/6/61/ON-npc-Clavicus_Vile_02.jpg/400px-ON-npc-Clavicus_Vile_02.jpg",
+      "importance": 12
+    },
+    {
+      "id": "sheogorath",
+      "name": "Sheogorath",
+      "title": "Lore:Sheogorath",
+      "type": "daedra",
+      "cluster": "thief",
+      "cluster_name": "O Ladrão: Sombras e Subterfúgio",
+      "color": "#10b981",
+      "position": [
+        160,
+        0,
+        12
+      ],
+      "summary": "Sheogorath is the Daedric Prince of Madness, Fourth Corner of the House of Troubles, the Skooma Cat, Lord of the Never-There, Raver, Comforter of Men, The Trickster, and Sovereign of Shivering Isles, King of Insanity, Lord of the Creative, Lord of the Deranged. His sphere is madness and creativity, and his motives are said to be unknowable. He is sometimes referred to as the Mad Star, the Mad Lord, the Mad One, the Mad God (or Dam Dog), and Uncle Sheo among other things. His realm, best known as the Shivering Isles, has also been called the Madhouse. It's believed that those who go there lose their sanity forever.[nb 2] Of course, only the Mad God himself may decide who has the privilege to enter. The Golden Saints, or Aureals, and Dark Seducers, or Mazken, are his servants. The Mad God typically...",
+      "image": "https://images.uesp.net/thumb/0/09/SI-npc-Sheogorath.jpg/400px-SI-npc-Sheogorath.jpg",
+      "importance": 12
+    },
+    {
+      "id": "vaermina",
+      "name": "Vaermina",
+      "title": "Lore:Vaermina",
+      "type": "daedra",
+      "cluster": "thief",
+      "cluster_name": "O Ladrão: Sombras e Subterfúgio",
+      "color": "#10b981",
+      "position": [
+        240,
+        10,
+        10
+      ],
+      "summary": "Vaermina (also spelled Vaernima), called the Prince of Dreams and Nightmares, the Gifter, the Mistress of Nightmares and Dark Portents, the Lady of Nightmares, the Weaver of Dreams, the Queen of Nightmares, Weaver of the Panoply, Daedra Lady of Corruption and Decay, the Dreamweaver and the Dark Lady is a Daedric Prince whose sphere is the realm of dreams and nightmares, and from whose realm evil omens issue forth, as well as corruption and decay. All mortals come under her sway as they sleep. She is considered one of the more \"demonic\" Daedra in that she is destructive for the sake of causing destruction, her method being torture. She is disgusted by mortals who maintain a moral compass, instead taking delight in those who commit outrageous sins or are unafraid to kill in pursuit of power....",
+      "image": "https://images.uesp.net/thumb/2/2e/ON-npc-Vaermina.jpg/400px-ON-npc-Vaermina.jpg",
+      "importance": 12
+    },
+    {
+      "id": "peryite",
+      "name": "Peryite",
+      "title": "Lore:Peryite",
+      "type": "daedra",
+      "cluster": "thief",
+      "cluster_name": "O Ladrão: Sombras e Subterfúgio",
+      "color": "#10b981",
+      "position": [
+        250,
+        -10,
+        8
+      ],
+      "summary": "Peryite (listen⏵) is one of the Daedric Princes that dwell within the realm of Oblivion. As the Daedric Prince of Pestilence, his sphere of influence includes tasks, natural order (not to be confused with the perfect order of Jyggalag), contamination, and pestilence. Peryite's sphere is described as \"ordering the lowest orders of Oblivion\". He is also known as the Daedra of Pestilence and Plague, the Taskmaster, the Blighted Lord, Figuring father, the Lord of Infection and Pestilence, the Bringer of Disease and Pestilence, the Lord of the Natural Order, the Master of Tasks, and the Lord of Abundant Pus and Bountiful Vomit. Peryite \"blesses\" his worshipers with diseases, and is considered one of the more destructive Princes. He is typically depicted as a green four-legged dragon, and often takes...",
+      "image": "https://images.uesp.net/7/73/ON-concept-Prince-Peryite-emblem.png",
+      "importance": 12
+    },
+    {
+      "id": "malacath",
+      "name": "Malacath",
+      "title": "Lore:Malacath",
+      "type": "daedra",
+      "cluster": "thief",
+      "cluster_name": "O Ladrão: Sombras e Subterfúgio",
+      "color": "#10b981",
+      "position": [
+        130,
+        -5,
+        12
+      ],
+      "summary": "Malacath, the Daedra Prince of Lies, Deception, and Hypocrisy, the God of Curses, Daedric Prince of the Bloody Oath, Lord of Ash and Bone, Lord of Monsters, Oathbreaker, Creator of Curses, He Who Speaks Sideways, the Furious One, the Keeper of the Bloody Curse, the Daedric Prince of Vengeance, the Defender of the Betrayed, also known as Mauloch (or Malauch) to the Orcs, Orkey in Nordic tradition, Orkha to the Khajiit, Malooc to the Giant Goblins and Redguards, Malak to the Dunmer, and Muluk the Blue God of the Goblins and Ogres, is a Daedric Prince whose sphere is \"the patronage of the spurned and ostracized, the keeper of the Sworn Oath, and the Bloody Curse\", as well as conflict, battle, broken promises, and anguish. Malacath has been described as a \"weak but vengeful\" Daedra by some, and...",
+      "image": "https://images.uesp.net/b/bb/ON-concept-Prince-Malacath-emblem.png",
+      "importance": 12
+    },
+    {
+      "id": "mehrunes_dagon",
+      "name": "Mehrunes Dagon",
+      "title": "Lore:Mehrunes Dagon",
+      "type": "daedra",
+      "cluster": "thief",
+      "cluster_name": "O Ladrão: Sombras e Subterfúgio",
+      "color": "#10b981",
+      "position": [
+        175,
+        -15,
+        10
+      ],
+      "summary": "Mehrunes Dagon (formally, the Exalted and Most Puissant Lord, Gerent of Dagon, Mehrunes), also called the great Daedra Lord, the Black Daedra Lord, Lord of Change, Prince of Ambition, Prince of Disaster and Destruction, Master of Razors, Sovereign of Destruction, the Flame Tyrant, the Father of Cataclysm, the Golden Flame, the Flame-Father, and the Mer-Pride's End, is the Daedric Prince of Darkness and Destruction, whose sphere encompasses destruction, change, revolution, energy, and ambition. The Lord of Fire and Flood is associated with natural dangers like fires or earthquakes. Flash floods, thunderstorms, and other natural disasters have been linked to communions between him and his cultists. The Prince is also said to be the author of the Mysterium Xarxes. Mehrunes Dagon has an insatiable...",
+      "image": "https://images.uesp.net/thumb/c/c5/ON-render-Mehrunes_Dagon_02.jpg/400px-ON-render-Mehrunes_Dagon_02.jpg",
+      "importance": 12
+    }
+  ],
+  "edges": [
+    {
+      "source": "akatosh",
+      "target": "alduin",
+      "relation": "CREATOR",
+      "label": "Pai dos Dragões"
+    },
+    {
+      "source": "alduin",
+      "target": "paarthurnax",
+      "relation": "RIVAL_OF",
+      "label": "Irmãos Inimigos"
+    },
+    {
+      "source": "alduin",
+      "target": "odahviing",
+      "relation": "MASTER_OF",
+      "label": "Comandante"
+    },
+    {
+      "source": "paarthurnax",
+      "target": "greybeards",
+      "relation": "LEADER_OF",
+      "label": "Mestre da Voz"
+    },
+    {
+      "source": "arngeir",
+      "target": "greybeards",
+      "relation": "MEMBER_OF",
+      "label": "Porta-Voz"
+    },
+    {
+      "source": "arngeir",
+      "target": "high_hrothgar",
+      "relation": "LOCATED_IN",
+      "label": "Garganta do Mundo"
+    },
+    {
+      "source": "savos_aren",
+      "target": "college_of_winterhold",
+      "relation": "LEADER_OF",
+      "label": "Arquimago"
+    },
+    {
+      "source": "mirabelle_ervine",
+      "target": "college_of_winterhold",
+      "relation": "MEMBER_OF",
+      "label": "Mestra Mágica"
+    },
+    {
+      "source": "tolfdir",
+      "target": "college_of_winterhold",
+      "relation": "MEMBER_OF",
+      "label": "Professor"
+    },
+    {
+      "source": "college_of_winterhold",
+      "target": "winterhold",
+      "relation": "LOCATED_IN",
+      "label": "Sede"
+    },
+    {
+      "source": "delphine",
+      "target": "the_blades",
+      "relation": "LEADER_OF",
+      "label": "Grande Mestre"
+    },
+    {
+      "source": "esbern",
+      "target": "the_blades",
+      "relation": "MEMBER_OF",
+      "label": "Cronista"
+    },
+    {
+      "source": "the_blades",
+      "target": "greybeards",
+      "relation": "RIVAL_OF",
+      "label": "Conflito Filosófico"
+    },
+    {
+      "source": "the_blades",
+      "target": "paarthurnax",
+      "relation": "ENEMY_OF",
+      "label": "Exigem Morte"
+    },
+    {
+      "source": "hermaeus_mora",
+      "target": "miraak",
+      "relation": "PATRON_OF",
+      "label": "Mestre Proibido"
+    },
+    {
+      "source": "talos",
+      "target": "sovngarde",
+      "relation": "LORD_OF",
+      "label": "Senhor dos Heróis"
+    },
+    {
+      "source": "ulfric_stormcloak",
+      "target": "stormcloaks",
+      "relation": "LEADER_OF",
+      "label": "Líder dos Rebeldes"
+    },
+    {
+      "source": "galmar_stone-fist",
+      "target": "stormcloaks",
+      "relation": "MEMBER_OF",
+      "label": "Segundo no Comando"
+    },
+    {
+      "source": "ulfric_stormcloak",
+      "target": "windhelm",
+      "relation": "LEADER_OF",
+      "label": "Jarl de Windhelm"
+    },
+    {
+      "source": "general_tullius",
+      "target": "imperial_legion",
+      "relation": "LEADER_OF",
+      "label": "General Imperial"
+    },
+    {
+      "source": "legate_rikke",
+      "target": "imperial_legion",
+      "relation": "MEMBER_OF",
+      "label": "Conselheira Militar"
+    },
+    {
+      "source": "elisif_the_fair",
+      "target": "solitude",
+      "relation": "LEADER_OF",
+      "label": "Jarl de Solitude"
+    },
+    {
+      "source": "elisif_the_fair",
+      "target": "torygg",
+      "relation": "SPOUSE_OF",
+      "label": "Viúva do Alto Rei"
+    },
+    {
+      "source": "ulfric_stormcloak",
+      "target": "torygg",
+      "relation": "KILLED",
+      "label": "Matou em Duelo"
+    },
+    {
+      "source": "stormcloaks",
+      "target": "imperial_legion",
+      "relation": "WAR_WITH",
+      "label": "Guerra Civil"
+    },
+    {
+      "source": "balgruuf_the_greater",
+      "target": "whiterun",
+      "relation": "LEADER_OF",
+      "label": "Jarl de Whiterun"
+    },
+    {
+      "source": "proventus_avenicci",
+      "target": "balgruuf_the_greater",
+      "relation": "STEWARD_OF",
+      "label": "Conselheiro"
+    },
+    {
+      "source": "kodlak_whitemane",
+      "target": "companions",
+      "relation": "LEADER_OF",
+      "label": "Harbinger"
+    },
+    {
+      "source": "aela_the_huntress",
+      "target": "companions",
+      "relation": "MEMBER_OF",
+      "label": "Círculo"
+    },
+    {
+      "source": "vilkas",
+      "target": "companions",
+      "relation": "MEMBER_OF",
+      "label": "Mestre de Armas"
+    },
+    {
+      "source": "farkas",
+      "target": "companions",
+      "relation": "MEMBER_OF",
+      "label": "Guerreiro"
+    },
+    {
+      "source": "hircine",
+      "target": "companions",
+      "relation": "PATRON_OF",
+      "label": "Pacto de Sangue"
+    },
+    {
+      "source": "nocturnal",
+      "target": "thieves_guild",
+      "relation": "PATRON_OF",
+      "label": "Senhora das Sombras"
+    },
+    {
+      "source": "mercer_frey",
+      "target": "thieves_guild",
+      "relation": "LEADER_OF",
+      "label": "Mestre Traidor"
+    },
+    {
+      "source": "brynjolf",
+      "target": "thieves_guild",
+      "relation": "MEMBER_OF",
+      "label": "Subchefe"
+    },
+    {
+      "source": "karliah",
+      "target": "nocturnal",
+      "relation": "NIGHTINGALE",
+      "label": "Guardiã Nightingale"
+    },
+    {
+      "source": "maven_black-briar",
+      "target": "thieves_guild",
+      "relation": "PATRON_OF",
+      "label": "Financiadora"
+    },
+    {
+      "source": "maven_black-briar",
+      "target": "riften",
+      "relation": "SHADOW_RULER",
+      "label": "Controla a Cidade"
+    },
+    {
+      "source": "the_night_mother",
+      "target": "dark_brotherhood",
+      "relation": "PATRON_OF",
+      "label": "Matrona Espiritual"
+    },
+    {
+      "source": "astrid",
+      "target": "dark_brotherhood",
+      "relation": "LEADER_OF",
+      "label": "Líder do Santuário"
+    },
+    {
+      "source": "cicero",
+      "target": "the_night_mother",
+      "relation": "KEEPER_OF",
+      "label": "Protetor do Caixão"
+    },
+    {
+      "source": "nazir",
+      "target": "dark_brotherhood",
+      "relation": "MEMBER_OF",
+      "label": "Mestre de Contratos"
+    },
+    {
+      "source": "lord_harkon",
+      "target": "volkihar_clan",
+      "relation": "LEADER_OF",
+      "label": "Lorde Vampiro"
+    },
+    {
+      "source": "serana",
+      "target": "volkihar_clan",
+      "relation": "MEMBER_OF",
+      "label": "Princesa Vampira"
+    },
+    {
+      "source": "valerica",
+      "target": "volkihar_clan",
+      "relation": "MEMBER_OF",
+      "label": "Mãe de Serana"
+    },
+    {
+      "source": "isran",
+      "target": "dawnguard_faction",
+      "relation": "LEADER_OF",
+      "label": "Líder da Guarda"
+    },
+    {
+      "source": "dawnguard_faction",
+      "target": "volkihar_clan",
+      "relation": "WAR_WITH",
+      "label": "Inimigos de Sangue"
+    },
+    {
+      "source": "elenwen",
+      "target": "thalmor",
+      "relation": "LEADER_OF",
+      "label": "Primeira Emissária"
+    },
+    {
+      "source": "ancano",
+      "target": "thalmor",
+      "relation": "MEMBER_OF",
+      "label": "Espião Thalmor"
+    },
+    {
+      "source": "thalmor",
+      "target": "talos",
+      "relation": "BANNED_WORSHIP",
+      "label": "Proibição do Culto"
+    },
+    {
+      "source": "talos",
+      "target": "stormcloaks",
+      "relation": "WORSHIPED_BY",
+      "label": "Inspiração Sagrada"
+    },
+    {
+      "source": "ancano",
+      "target": "college_of_winterhold",
+      "relation": "INFILTRATING",
+      "label": "Infiltração"
+    },
+    {
+      "source": "molag_bal",
+      "target": "lord_harkon",
+      "relation": "CREATOR",
+      "label": "Linhagem Pura"
+    }
+  ]
+}
