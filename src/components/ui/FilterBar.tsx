@@ -8,7 +8,7 @@ interface FilterBarProps {
 }
 
 const TYPE_OPTIONS: Array<{ key: string | null; label: string; color: string }> = [
-  { key: null, label: 'All Stars', color: '#f8fafc' },
+  { key: null, label: 'All Stars', color: '#e8e0d0' },
   { key: 'deity', label: 'Deities', color: '#facc15' },
   { key: 'daedra', label: 'Daedra', color: '#c084fc' },
   { key: 'dragon', label: 'Dragons', color: '#f97316' },
@@ -38,7 +38,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
         alignItems: 'center',
         padding: '14px 24px',
         pointerEvents: 'none',
-        background: 'linear-gradient(0deg, rgba(2,4,9,0.96) 0%, rgba(2,4,9,0.5) 75%, rgba(2,4,9,0) 100%)',
+        background: 'linear-gradient(0deg, rgba(11, 11, 11, 0.98) 0%, rgba(13, 27, 42, 0.6) 70%, rgba(11, 11, 11, 0) 100%)',
         flexWrap: 'wrap',
         gap: '12px',
       }}
@@ -56,14 +56,15 @@ export const FilterBar: React.FC<FilterBarProps> = ({
         <span
           style={{
             fontSize: '10px',
-            color: 'var(--text-muted)',
+            fontFamily: 'var(--font-title)',
+            color: 'var(--color-tarnished-gold)',
             textTransform: 'uppercase',
-            letterSpacing: '0.08em',
-            marginRight: '4px',
-            fontWeight: 600,
+            letterSpacing: '0.12em',
+            marginRight: '6px',
+            fontWeight: 700,
           }}
         >
-          Spectral Filter:
+          Spectral Reliquary:
         </span>
         {TYPE_OPTIONS.map(opt => {
           const isActive = selectedType === opt.key;
@@ -75,15 +76,16 @@ export const FilterBar: React.FC<FilterBarProps> = ({
                 display: 'inline-flex',
                 alignItems: 'center',
                 gap: '6px',
-                padding: '5px 11px',
+                padding: '5px 12px',
                 borderRadius: '3px',
                 fontSize: '11px',
-                letterSpacing: '0.04em',
+                fontFamily: 'var(--font-title)',
+                letterSpacing: '0.05em',
                 cursor: 'pointer',
-                backgroundColor: isActive ? 'rgba(15, 23, 42, 0.9)' : 'rgba(8, 12, 22, 0.75)',
-                border: `1px solid ${isActive ? opt.color : 'rgba(255, 255, 255, 0.1)'}`,
-                color: isActive ? '#f8fafc' : 'var(--text-secondary)',
-                boxShadow: isActive ? `0 0 10px ${opt.color}40` : 'none',
+                backgroundColor: isActive ? 'var(--bg-purple)' : 'rgba(13, 27, 42, 0.8)',
+                border: `1px solid ${isActive ? opt.color : 'var(--border-subtle)'}`,
+                color: isActive ? 'var(--color-bone-white)' : 'var(--text-secondary)',
+                boxShadow: isActive ? `0 0 12px ${opt.color}55` : 'none',
                 transition: 'all 0.2s cubic-bezier(0.16, 1, 0.3, 1)',
                 whiteSpace: 'nowrap',
               }}
@@ -110,6 +112,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
           alignItems: 'center',
           gap: '14px',
           fontSize: '11px',
+          fontFamily: 'var(--font-mono)',
           color: 'var(--text-muted)',
           pointerEvents: 'auto',
         }}
@@ -117,8 +120,8 @@ export const FilterBar: React.FC<FilterBarProps> = ({
         <span>
           Left drag: rotate • Right drag: pan • Wheel: zoom • Star click: inspect
         </span>
-        <span style={{ color: 'var(--border-subtle)' }}>|</span>
-        <span style={{ color: '#f8fafc', fontWeight: 500 }}>
+        <span style={{ color: 'var(--color-stone-grey)' }}>|</span>
+        <span style={{ color: 'var(--color-tarnished-gold-bright)', fontWeight: 600 }}>
           {totalNodes} Stars • {totalEdges} Lore Beams
         </span>
       </div>

@@ -9,6 +9,14 @@ interface SidebarProps {
   onSelectNode: (node: LoreNode) => void;
 }
 
+const cleanSummary = (text: string) => {
+  return text
+    .replace(/^\{\|[\s\S]*?;\s*\"?\s*/g, '')
+    .replace(/^\{\|[\s\S]*?\|\}\s*/g, '')
+    .replace(/\{\|[\s\S]*?\|\}/g, '')
+    .trim();
+};
+
 export const Sidebar: React.FC<SidebarProps> = ({
   node,
   edges,
@@ -41,6 +49,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
     .filter((rel): rel is { edge: LoreEdge; targetNode: LoreNode; isOutgoing: boolean } => Boolean(rel.targetNode));
 
   const wikiUrl = `https://en.uesp.net/wiki/${encodeURIComponent(node.title)}`;
+  const sanitizedSummary = cleanSummary(node.summary);
 
   return (
     <aside
@@ -48,30 +57,32 @@ export const Sidebar: React.FC<SidebarProps> = ({
         position: 'absolute',
         top: 0,
         right: 0,
-        width: '390px',
-        maxWidth: '90vw',
+        width: '400px',
+        maxWidth: '92vw',
         height: '100%',
-        backgroundColor: 'var(--bg-surface)',
+        backgroundColor: 'var(--bg-obsidian)',
+        backgroundImage: 'linear-gradient(180deg, rgba(13, 27, 42, 0.4) 0%, rgba(11, 11, 11, 0.98) 35%, rgba(11, 11, 11, 1) 100%)',
         borderLeft: '1px solid var(--border-subtle)',
         zIndex: 20,
         display: 'flex',
         flexDirection: 'column',
-        boxShadow: '-10px 0 36px rgba(0,0,0,0.7)',
+        boxShadow: '-12px 0 40px rgba(0, 0, 0, 0.85), inset 1px 0 0 rgba(139, 115, 85, 0.15)',
         animation: 'slideIn 0.25s ease-out',
       }}
     >
       <div
         style={{
-          padding: '20px 24px',
+          padding: '22px 24px',
           borderBottom: '1px solid var(--border-subtle)',
           display: 'flex',
           justifyContent: 'space-between',
           alignItems: 'flex-start',
           gap: '12px',
+          background: 'linear-gradient(180deg, rgba(45, 10, 62, 0.25) 0%, rgba(11, 11, 11, 0) 100%)',
         }}
       >
         <div>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '6px' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
             <span
               style={{
                 display: 'inline-flex',
@@ -79,9 +90,10 @@ export const Sidebar: React.FC<SidebarProps> = ({
                 gap: '5px',
                 padding: '2px 8px',
                 borderRadius: '3px',
-                backgroundColor: `${node.color}20`,
+                backgroundColor: `${node.color}18`,
                 border: `1px solid ${node.color}60`,
-                fontSize: '10.5px',
+                fontSize: '10px',
+                fontFamily: 'var(--font-mono)',
                 color: node.color,
                 textTransform: 'uppercase',
                 letterSpacing: '0.08em',
@@ -103,8 +115,9 @@ export const Sidebar: React.FC<SidebarProps> = ({
             <span
               style={{
                 fontSize: '11px',
+                fontFamily: 'var(--font-title)',
                 color: 'var(--text-muted)',
-                letterSpacing: '0.06em',
+                letterSpacing: '0.08em',
                 textTransform: 'uppercase',
               }}
             >
@@ -114,11 +127,12 @@ export const Sidebar: React.FC<SidebarProps> = ({
           <h2
             style={{
               fontFamily: 'var(--font-title)',
-              fontSize: '20px',
-              color: '#f8fafc',
-              fontWeight: 600,
-              letterSpacing: '0.04em',
+              fontSize: '22px',
+              color: 'var(--color-bone-white)',
+              fontWeight: 700,
+              letterSpacing: '0.06em',
               margin: 0,
+              textShadow: '0 0 14px rgba(200, 155, 60, 0.35)',
             }}
           >
             {node.name}
@@ -136,13 +150,15 @@ export const Sidebar: React.FC<SidebarProps> = ({
             cursor: 'pointer',
             backgroundColor: 'transparent',
             border: 'none',
-            transition: 'color 0.2s',
+            transition: 'color 0.2s, transform 0.2s',
           }}
           onMouseEnter={(e) => {
-            e.currentTarget.style.color = '#f8fafc';
+            e.currentTarget.style.color = 'var(--color-bone-white)';
+            e.currentTarget.style.transform = 'scale(1.1)';
           }}
           onMouseLeave={(e) => {
             e.currentTarget.style.color = 'var(--text-muted)';
+            e.currentTarget.style.transform = 'scale(1)';
           }}
         >
           ✕
@@ -156,48 +172,94 @@ export const Sidebar: React.FC<SidebarProps> = ({
           padding: '20px 24px',
           display: 'flex',
           flexDirection: 'column',
-          gap: '20px',
+          gap: '22px',
         }}
       >
         {node.image && (
           <div
             style={{
+              position: 'relative',
               width: '100%',
-              maxHeight: '260px',
-              minHeight: '140px',
-              borderRadius: '4px',
-              overflow: 'hidden',
-              backgroundColor: '#050811',
+              backgroundColor: 'var(--bg-obsidian)',
               border: '1px solid var(--border-subtle)',
+              borderRadius: '6px',
+              padding: '12px 10px',
               display: 'flex',
+              flexDirection: 'column',
               alignItems: 'center',
               justifyContent: 'center',
-              padding: '6px',
+              boxShadow: 'inset 0 0 24px rgba(0, 0, 0, 0.85), 0 4px 14px rgba(0, 0, 0, 0.6)',
             }}
           >
-            <img
-              src={node.image}
-              alt={node.name}
-              loading="lazy"
+            <div
               style={{
-                maxWidth: '100%',
-                maxHeight: '250px',
-                width: 'auto',
-                height: 'auto',
-                objectFit: 'contain',
-                display: 'block',
+                width: '100%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                minHeight: '120px',
               }}
-            />
+            >
+              <img
+                src={node.image}
+                alt={node.name}
+                loading="lazy"
+                style={{
+                  maxWidth: '100%',
+                  maxHeight: '320px',
+                  width: 'auto',
+                  height: 'auto',
+                  objectFit: 'contain',
+                  display: 'block',
+                  filter: 'drop-shadow(0 4px 14px rgba(0, 0, 0, 0.8))',
+                  borderRadius: '2px',
+                }}
+              />
+            </div>
+            <div
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'space-between',
+                width: '100%',
+                marginTop: '10px',
+                paddingTop: '6px',
+                borderTop: '1px solid rgba(139, 115, 85, 0.2)',
+              }}
+            >
+              <span
+                style={{
+                  fontFamily: 'var(--font-mono)',
+                  fontSize: '9.5px',
+                  color: 'var(--text-muted)',
+                  letterSpacing: '0.06em',
+                  textTransform: 'uppercase',
+                }}
+              >
+                Archive Portrait
+              </span>
+              <span
+                style={{
+                  fontFamily: 'var(--font-mono)',
+                  fontSize: '9.5px',
+                  color: 'var(--color-tarnished-gold)',
+                  letterSpacing: '0.04em',
+                }}
+              >
+                Canonical
+              </span>
+            </div>
           </div>
         )}
 
         <div>
           <h3
             style={{
+              fontFamily: 'var(--font-title)',
               fontSize: '11px',
-              color: 'var(--text-muted)',
+              color: 'var(--color-tarnished-gold)',
               textTransform: 'uppercase',
-              letterSpacing: '0.08em',
+              letterSpacing: '0.12em',
               marginBottom: '8px',
               margin: 0,
             }}
@@ -206,24 +268,26 @@ export const Sidebar: React.FC<SidebarProps> = ({
           </h3>
           <p
             style={{
+              fontFamily: 'var(--font-body)',
               fontSize: '13.5px',
-              lineHeight: 1.6,
+              lineHeight: 1.65,
               color: 'var(--text-secondary)',
               marginTop: '8px',
               marginBottom: 0,
             }}
           >
-            {node.summary}
+            {sanitizedSummary}
           </p>
         </div>
 
         <div>
           <h3
             style={{
+              fontFamily: 'var(--font-title)',
               fontSize: '11px',
-              color: 'var(--text-muted)',
+              color: 'var(--color-tarnished-gold)',
               textTransform: 'uppercase',
-              letterSpacing: '0.08em',
+              letterSpacing: '0.12em',
               marginBottom: '10px',
               margin: 0,
             }}
@@ -263,15 +327,17 @@ export const Sidebar: React.FC<SidebarProps> = ({
                     display: 'flex',
                     justifyContent: 'space-between',
                     alignItems: 'center',
-                    transition: 'border-color 0.2s, background-color 0.2s',
+                    transition: 'border-color 0.2s, background-color 0.2s, box-shadow 0.2s',
                   }}
                   onMouseEnter={(e) => {
-                    e.currentTarget.style.borderColor = 'var(--accent-gold)';
+                    e.currentTarget.style.borderColor = 'var(--color-tarnished-gold-bright)';
                     e.currentTarget.style.backgroundColor = 'var(--bg-surface-hover)';
+                    e.currentTarget.style.boxShadow = '0 0 12px rgba(200, 155, 60, 0.2)';
                   }}
                   onMouseLeave={(e) => {
                     e.currentTarget.style.borderColor = 'var(--border-subtle)';
                     e.currentTarget.style.backgroundColor = 'var(--bg-surface-elevated)';
+                    e.currentTarget.style.boxShadow = 'none';
                   }}
                 >
                   <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
@@ -285,17 +351,18 @@ export const Sidebar: React.FC<SidebarProps> = ({
                         display: 'inline-block',
                       }}
                     />
-                    <span style={{ fontSize: '13px', color: '#f8fafc', fontWeight: 500 }}>
+                    <span style={{ fontSize: '13px', color: 'var(--color-bone-white)', fontWeight: 500, fontFamily: 'var(--font-title)' }}>
                       {targetNode.name}
                     </span>
-                    <span style={{ fontSize: '10.5px', color: 'var(--text-muted)', textTransform: 'capitalize' }}>
+                    <span style={{ fontSize: '10px', fontFamily: 'var(--font-mono)', color: 'var(--text-muted)', textTransform: 'capitalize' }}>
                       ({targetNode.type})
                     </span>
                   </div>
                   <span
                     style={{
                       fontSize: '11px',
-                      color: 'var(--accent-gold)',
+                      fontFamily: 'var(--font-mono)',
+                      color: 'var(--color-tarnished-gold)',
                       letterSpacing: '0.04em',
                     }}
                   >
@@ -312,7 +379,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
         style={{
           padding: '16px 24px',
           borderTop: '1px solid var(--border-subtle)',
-          backgroundColor: 'var(--bg-surface)',
+          backgroundColor: 'var(--bg-obsidian)',
         }}
       >
         <a
@@ -322,23 +389,30 @@ export const Sidebar: React.FC<SidebarProps> = ({
           style={{
             display: 'block',
             textAlign: 'center',
-            padding: '10px 16px',
+            padding: '11px 16px',
             borderRadius: '4px',
-            border: '1px solid var(--border-subtle)',
+            border: '1px solid var(--color-tarnished-gold)',
             backgroundColor: 'var(--bg-surface-elevated)',
-            color: 'var(--text-primary)',
-            fontSize: '12px',
+            color: 'var(--color-bone-white)',
+            fontFamily: 'var(--font-title)',
+            fontSize: '11.5px',
+            fontWeight: 600,
             textDecoration: 'none',
-            letterSpacing: '0.05em',
-            transition: 'border-color 0.2s, color 0.2s',
+            letterSpacing: '0.08em',
+            textTransform: 'uppercase',
+            transition: 'border-color 0.2s, color 0.2s, box-shadow 0.2s, background-color 0.2s',
           }}
           onMouseEnter={(e) => {
-            e.currentTarget.style.borderColor = 'var(--accent-gold)';
-            e.currentTarget.style.color = 'var(--accent-gold)';
+            e.currentTarget.style.borderColor = 'var(--color-tarnished-gold-bright)';
+            e.currentTarget.style.backgroundColor = 'var(--bg-surface-hover)';
+            e.currentTarget.style.boxShadow = 'var(--glow-gold)';
+            e.currentTarget.style.color = '#ffffff';
           }}
           onMouseLeave={(e) => {
-            e.currentTarget.style.borderColor = 'var(--border-subtle)';
-            e.currentTarget.style.color = 'var(--text-primary)';
+            e.currentTarget.style.borderColor = 'var(--color-tarnished-gold)';
+            e.currentTarget.style.backgroundColor = 'var(--bg-surface-elevated)';
+            e.currentTarget.style.boxShadow = 'none';
+            e.currentTarget.style.color = 'var(--color-bone-white)';
           }}
         >
           Read Full Article on UESP Wiki

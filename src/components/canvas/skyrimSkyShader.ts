@@ -68,7 +68,7 @@ export const skyrimSkyFragmentShader = `
     uv.x += uCameraOffset.x * 0.0003;
     uv.y += uCameraOffset.y * 0.00015;
 
-    vec3 skyBase = mix(vec3(0.008, 0.012, 0.024), vec3(0.015, 0.02, 0.04), uv.y);
+    vec3 skyBase = mix(vec3(0.004, 0.004, 0.007), vec3(0.010, 0.014, 0.026), uv.y);
 
     float starGrid = 180.0;
     vec2 sId = floor(uv * starGrid);

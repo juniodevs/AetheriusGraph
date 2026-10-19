@@ -55,7 +55,7 @@ export const Header: React.FC<HeaderProps> = ({
         gap: '12px',
         padding: '16px 24px',
         pointerEvents: 'none',
-        background: 'linear-gradient(180deg, rgba(2,4,9,0.94) 0%, rgba(2,4,9,0.4) 75%, rgba(2,4,9,0) 100%)',
+        background: 'linear-gradient(180deg, rgba(11, 11, 11, 0.98) 0%, rgba(13, 27, 42, 0.55) 70%, rgba(11, 11, 11, 0) 100%)',
       }}
     >
       <div
@@ -69,38 +69,38 @@ export const Header: React.FC<HeaderProps> = ({
           gap: '16px',
         }}
       >
-        <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '14px' }}>
           <img
             src="/favicon.svg"
             alt="AetheriusGraph emblem"
             style={{
-              width: '28px',
-              height: '28px',
-              filter: 'drop-shadow(0 0 10px rgba(250, 204, 21, 0.45))',
+              width: '32px',
+              height: '32px',
+              filter: 'drop-shadow(0 0 12px rgba(200, 155, 60, 0.45))',
             }}
           />
-          <div style={{ display: 'flex', alignItems: 'baseline', gap: '14px' }}>
+          <div style={{ display: 'flex', alignItems: 'baseline', gap: '14px', flexWrap: 'wrap' }}>
             <h1
               style={{
-                fontFamily: 'var(--font-title)',
-                fontSize: '22px',
+                fontFamily: 'var(--font-display)',
+                fontSize: '28px',
                 fontWeight: 700,
-                letterSpacing: '0.12em',
-                color: '#f8fafc',
-                textTransform: 'uppercase',
+                letterSpacing: '0.04em',
+                color: 'var(--color-bone-white)',
                 margin: 0,
-                textShadow: '0 0 14px rgba(200, 155, 60, 0.35)',
+                textShadow: '0 0 16px rgba(200, 155, 60, 0.4), 0 0 30px rgba(45, 10, 62, 0.55)',
               }}
             >
               AetheriusGraph
             </h1>
             <span
               style={{
-                fontFamily: 'var(--font-sans)',
+                fontFamily: 'var(--font-title)',
                 fontSize: '11px',
-                color: 'var(--text-muted)',
-                letterSpacing: '0.08em',
+                color: 'var(--color-tarnished-gold)',
+                letterSpacing: '0.12em',
                 textTransform: 'uppercase',
+                fontWeight: 600,
               }}
             >
               Celestial Lore Sphere of The Elder Scrolls
@@ -108,125 +108,132 @@ export const Header: React.FC<HeaderProps> = ({
           </div>
         </div>
 
-        <div ref={searchRef} style={{ position: 'relative', width: '320px' }}>
-          <input
-            type="text"
-            placeholder="Search deities, heroes, daedra, factions..."
-            value={search}
-            onChange={(e) => {
-              setSearch(e.target.value);
-              setIsOpen(true);
-            }}
-            onFocus={() => setIsOpen(true)}
-            style={{
-              width: '100%',
-              backgroundColor: 'var(--bg-surface)',
-              border: '1px solid var(--border-subtle)',
-              padding: '8px 14px',
-              borderRadius: '4px',
-              color: 'var(--text-primary)',
-              fontSize: '13px',
-              outline: 'none',
-              transition: 'border-color 0.2s, box-shadow 0.2s',
-            }}
-            onFocusCapture={(e) => {
-              e.currentTarget.style.borderColor = 'var(--accent-gold)';
-              e.currentTarget.style.boxShadow = '0 0 12px rgba(200, 155, 60, 0.2)';
-            }}
-            onBlurCapture={(e) => {
-              e.currentTarget.style.borderColor = 'var(--border-subtle)';
-              e.currentTarget.style.boxShadow = 'none';
-            }}
-          />
-
-          {isOpen && filteredResults.length > 0 && (
-            <div
-              style={{
-                position: 'absolute',
-                top: 'calc(100% + 6px)',
-                left: 0,
-                width: '100%',
-                maxHeight: '320px',
-                overflowY: 'auto',
-                backgroundColor: '#0a0f1d',
-                border: '1px solid var(--border-subtle)',
-                borderRadius: '4px',
-                boxShadow: '0 12px 32px rgba(0,0,0,0.8)',
-                zIndex: 40,
+        <div style={{ display: 'flex', alignItems: 'center', gap: '12px', flexWrap: 'wrap' }}>
+          <div ref={searchRef} style={{ position: 'relative', width: '320px' }}>
+            <input
+              type="text"
+              placeholder="Search deities, heroes, daedra, factions..."
+              value={search}
+              onChange={(e) => {
+                setSearch(e.target.value);
+                setIsOpen(true);
               }}
-            >
-              {filteredResults.map(node => (
-                <div
-                  key={node.id}
-                  onClick={() => {
-                    onSelectNode(node);
-                    setIsOpen(false);
-                    setSearch('');
-                  }}
-                  style={{
-                    padding: '9px 14px',
-                    fontSize: '13px',
-                    display: 'flex',
-                    justifyContent: 'space-between',
-                    alignItems: 'center',
-                    cursor: 'pointer',
-                    borderBottom: '1px solid rgba(255,255,255,0.04)',
-                    transition: 'background-color 0.15s',
-                  }}
-                  onMouseEnter={(e) => {
-                    e.currentTarget.style.backgroundColor = 'rgba(200, 155, 60, 0.12)';
-                  }}
-                  onMouseLeave={(e) => {
-                    e.currentTarget.style.backgroundColor = 'transparent';
-                  }}
-                >
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                    <span
-                      style={{
-                        width: '7px',
-                        height: '7px',
-                        borderRadius: '50%',
-                        backgroundColor: node.color,
-                        display: 'inline-block',
-                      }}
-                    />
-                    <span style={{ color: '#f8fafc', fontWeight: 500 }}>
-                      {node.name}
+              onFocus={() => setIsOpen(true)}
+              style={{
+                width: '100%',
+                backgroundColor: 'var(--bg-midnight)',
+                border: '1px solid var(--border-stone)',
+                padding: '8px 14px',
+                borderRadius: '4px',
+                color: 'var(--color-bone-white)',
+                fontSize: '12.5px',
+                outline: 'none',
+                transition: 'border-color 0.2s, box-shadow 0.2s',
+              }}
+              onFocusCapture={(e) => {
+                e.currentTarget.style.borderColor = 'var(--color-tarnished-gold-bright)';
+                e.currentTarget.style.boxShadow = '0 0 12px rgba(200, 155, 60, 0.25)';
+              }}
+              onBlurCapture={(e) => {
+                e.currentTarget.style.borderColor = 'var(--border-stone)';
+                e.currentTarget.style.boxShadow = 'none';
+              }}
+            />
+
+            {isOpen && filteredResults.length > 0 && (
+              <div
+                style={{
+                  position: 'absolute',
+                  top: 'calc(100% + 6px)',
+                  left: 0,
+                  width: '100%',
+                  maxHeight: '320px',
+                  overflowY: 'auto',
+                  backgroundColor: 'var(--bg-obsidian)',
+                  border: '1px solid var(--color-tarnished-gold)',
+                  borderRadius: '4px',
+                  boxShadow: '0 12px 32px rgba(0, 0, 0, 0.9), 0 0 16px rgba(45, 10, 62, 0.5)',
+                  zIndex: 40,
+                }}
+              >
+                {filteredResults.map(node => (
+                  <div
+                    key={node.id}
+                    onClick={() => {
+                      onSelectNode(node);
+                      setIsOpen(false);
+                      setSearch('');
+                    }}
+                    style={{
+                      padding: '10px 14px',
+                      fontSize: '13px',
+                      display: 'flex',
+                      justifyContent: 'space-between',
+                      alignItems: 'center',
+                      cursor: 'pointer',
+                      borderBottom: '1px solid rgba(139, 115, 85, 0.15)',
+                      transition: 'background-color 0.15s',
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.backgroundColor = 'rgba(200, 155, 60, 0.15)';
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.backgroundColor = 'transparent';
+                    }}
+                  >
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                      <span
+                        style={{
+                          width: '7px',
+                          height: '7px',
+                          borderRadius: '50%',
+                          backgroundColor: node.color,
+                          display: 'inline-block',
+                          boxShadow: `0 0 6px ${node.color}`,
+                        }}
+                      />
+                      <span style={{ color: 'var(--color-bone-white)', fontFamily: 'var(--font-title)', fontWeight: 600 }}>
+                        {node.name}
+                      </span>
+                    </div>
+                    <span style={{ fontSize: '10.5px', fontFamily: 'var(--font-mono)', color: 'var(--color-tarnished-gold)' }}>
+                      {node.realm_name}
                     </span>
                   </div>
-                  <span style={{ fontSize: '11px', color: 'var(--text-muted)' }}>
-                    {node.realm_name}
-                  </span>
-                </div>
-              ))}
-            </div>
-          )}
-        </div>
+                ))}
+              </div>
+            )}
+          </div>
 
-        <button
-          onClick={onResetCamera}
-          style={{
-            backgroundColor: 'var(--bg-surface)',
-            border: '1px solid var(--border-subtle)',
-            color: 'var(--text-secondary)',
-            padding: '7px 16px',
-            borderRadius: '4px',
-            fontSize: '12px',
-            letterSpacing: '0.05em',
-            cursor: 'pointer',
-            transition: 'border-color 0.2s, color 0.2s',
-          }}
-          onMouseEnter={(e) => {
-            e.currentTarget.style.borderColor = 'var(--accent-gold)';
-            e.currentTarget.style.color = '#f8fafc';
-          }}
-          onMouseLeave={(e) => {
-            e.currentTarget.style.borderColor = 'var(--border-subtle)';
-            e.currentTarget.style.color = 'var(--text-secondary)';
-          }}
-        >
-          Celestial Panorama
-        </button>
+          <button
+            onClick={onResetCamera}
+            style={{
+              backgroundColor: 'var(--bg-midnight)',
+              border: '1px solid var(--border-subtle)',
+              color: 'var(--color-bone-white)',
+              padding: '8px 16px',
+              borderRadius: '4px',
+              fontSize: '11px',
+              fontFamily: 'var(--font-title)',
+              letterSpacing: '0.08em',
+              textTransform: 'uppercase',
+              cursor: 'pointer',
+              transition: 'border-color 0.2s, box-shadow 0.2s, color 0.2s',
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.borderColor = 'var(--color-tarnished-gold-bright)';
+              e.currentTarget.style.boxShadow = 'var(--glow-gold)';
+              e.currentTarget.style.color = '#ffffff';
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.borderColor = 'var(--border-subtle)';
+              e.currentTarget.style.boxShadow = 'none';
+              e.currentTarget.style.color = 'var(--color-bone-white)';
+            }}
+          >
+            Celestial Panorama
+          </button>
+        </div>
       </div>
 
       <div
@@ -245,14 +252,15 @@ export const Header: React.FC<HeaderProps> = ({
             padding: '6px 14px',
             borderRadius: '4px',
             fontSize: '11.5px',
-            backgroundColor: activeRealm === null ? 'var(--bg-surface-elevated)' : 'rgba(10,15,29,0.7)',
-            border: `1px solid ${activeRealm === null ? 'var(--accent-gold)' : 'var(--border-subtle)'}`,
-            color: activeRealm === null ? 'var(--accent-gold)' : 'var(--text-secondary)',
-            letterSpacing: '0.05em',
+            fontFamily: 'var(--font-title)',
+            backgroundColor: activeRealm === null ? 'var(--bg-purple)' : 'rgba(13, 27, 42, 0.75)',
+            border: `1px solid ${activeRealm === null ? 'var(--color-tarnished-gold-bright)' : 'var(--border-subtle)'}`,
+            color: activeRealm === null ? 'var(--color-bone-white)' : 'var(--text-secondary)',
+            letterSpacing: '0.06em',
             cursor: 'pointer',
             whiteSpace: 'nowrap',
             transition: 'all 0.2s',
-            boxShadow: activeRealm === null ? '0 0 12px rgba(200, 155, 60, 0.25)' : 'none',
+            boxShadow: activeRealm === null ? '0 0 14px rgba(200, 155, 60, 0.35)' : 'none',
           }}
         >
           All Cosmos
@@ -268,17 +276,18 @@ export const Header: React.FC<HeaderProps> = ({
                 padding: '6px 14px',
                 borderRadius: '4px',
                 fontSize: '11.5px',
-                backgroundColor: isActive ? 'var(--bg-surface-elevated)' : 'rgba(10,15,29,0.7)',
+                fontFamily: 'var(--font-title)',
+                backgroundColor: isActive ? 'var(--bg-purple)' : 'rgba(13, 27, 42, 0.75)',
                 border: `1px solid ${isActive ? info.color : 'var(--border-subtle)'}`,
-                color: isActive ? '#f8fafc' : 'var(--text-secondary)',
-                letterSpacing: '0.04em',
+                color: isActive ? 'var(--color-bone-white)' : 'var(--text-secondary)',
+                letterSpacing: '0.05em',
                 cursor: 'pointer',
                 whiteSpace: 'nowrap',
                 transition: 'all 0.2s',
                 display: 'flex',
                 alignItems: 'center',
                 gap: '8px',
-                boxShadow: isActive ? `0 0 14px ${info.color}44` : 'none',
+                boxShadow: isActive ? `0 0 14px ${info.color}55` : 'none',
               }}
             >
               <span
@@ -288,6 +297,7 @@ export const Header: React.FC<HeaderProps> = ({
                   borderRadius: '50%',
                   backgroundColor: info.color,
                   display: 'inline-block',
+                  boxShadow: `0 0 6px ${info.color}`,
                 }}
               />
               <span>{info.name}</span>
