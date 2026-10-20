@@ -87,7 +87,7 @@
       }
     },
     "total_nodes": 205,
-    "total_edges": 1589
+    "total_edges": 1600
   },
   "nodes": [
     {
@@ -970,7 +970,7 @@
         291.47,
         -31.5
       ],
-      "summary": "Miraak is the primary antagonist of the Dragonborn add-on for Skyrim. He is the First Dragonborn recorded in history. He ruled over the island of Solstheim, where a large temple was dedicated to him. He once served as a leader of the Dragon Cult and possesses a Dragon Priest Mask called Miraak, given to him by the dragons. At some point, he sought out the teachings of Hermaeus Mora, the Demon of Knowledge, and became his champion. Hermaeus Mora taught Miraak the power to bend the will of dragons. Using this knowledge and his innate ability to devour the souls of dragonkind, he turned on his winged overlords and killed a great number of them. Three Dragon Priests, Ahzidal, Dukaan and Zahkriisos, joined him and became his three most powerful servants, called the \"Acolyte Priests\". Following this, dragons razed his temple in retaliation. Hermaeus Mora protected his new champion, though Miraak became trapped in the Daedric Prince's realm. For more information, see the lore article.",
+      "summary": "Miraak is the primary antagonist of the Dragonborn add-on for Skyrim. He is the First Dragonborn recorded in history. He ruled over the island of Solstheim, where a large temple was dedicated to him. He once served as a leader of the Dragon Cult and possesses a Dragon Priest Mask called Miraak, given to him by the dragons. At some point, he sought out the teachings of Hermaeus Mora, the Demon of Knowledge, and became his champion. Hermaeus Mora taught Miraak the power to bend the will of dragons. Using this knowledge and his innate ability to devour the souls of dragonkind, he turned on his winged overlords and killed a great number of them. Three Dragon Priests, Ahzidal, Dukaan and Zahkriisos, joined him and became his three most powerful servants, called the \"Acolyte Priests\". Following this, dragons razed his temple in retaliation.&#32;Hermaeus Mora protected his new champion, though Miraak became trapped in the Daedric Prince's realm. For more information, see the lore article.",
       "image": "https://images.uesp.net/b/b9/SR-npc-Miraak_02.jpg",
       "importance": 8
     },
@@ -1140,7 +1140,7 @@
         77.27,
         77.85
       ],
-      "summary": "High King Torygg was the ruler of Skyrim and Jarl of Solitude until his death at the hands of Ulfric Stormcloak in 4E 201. His death triggered the outbreak of the Skyrim Civil War. Torygg's spirit now resides in the Hall of Valor in Sovngarde, mourning the devastation his passing brought upon the realm.",
+      "summary": "Torygg was the High King of Skyrim and Jarl of Solitude until his death at the hands of Ulfric Stormcloak in . His death ultimately led to the outbreak of the Stormcloak Rebellion. Torygg's father, Istlod, the High King of Skyrim, held Skyrim together for almost twenty-five years, and when he died, the Moot convened to elect his successor, which by tradition would be Torygg. Jarl Ulfric Stormcloak of Windhelm used the Moot to talk about Skyrim's independence in terms just shy of treason, which Torygg reportedly respected. The Moot eventually voted to make Torygg the High King of Skyrim.",
       "image": "https://images.uesp.net/thumb/5/56/SR-npc-High_King_Torygg.jpg/400px-SR-npc-High_King_Torygg.jpg",
       "importance": 8
     },
@@ -1174,7 +1174,7 @@
         76.73,
         72.87
       ],
-      "summary": "Balgruuf the Greater, a Nord warrior, is the Jarl of Whiterun, and a descendant of High King Olaf One-Eye. An admirer of the Greybeards, Balgruuf made the pilgrimage to High Hrothgar in his youth. He has carried on a rivalry with Ulfric Stormcloak since they both were young. He has multiple children, including Frothar, Dagny, and the youngest Nelkir, as well as a brother named Hrongar, who advises him at court. While considered to be an honorable warrior who puts his heart and soul into his service, he is also not considered a patient man. For more information, see the lore article.",
+      "summary": "Balgruuf the Greater, a Nord warrior, is the Jarl of Whiterun, and a descendant of High King Olaf One-Eye. An admirer of the Greybeards, Balgruuf made the pilgrimage to High Hrothgar in his youth. He&#32;has carried on a rivalry with Ulfric Stormcloak since they both were young. He has multiple children, including Frothar, Dagny, and the youngest Nelkir, as well as a brother named Hrongar, who advises him at court. While considered to be an honorable warrior who puts his heart and soul into his service, he is also not considered a patient man. For more information, see the lore article.",
       "image": "https://images.uesp.net/thumb/0/00/SR-npc-Balgruuf_the_Greater.jpg/400px-SR-npc-Balgruuf_the_Greater.jpg",
       "importance": 8
     },
@@ -2908,7 +2908,7 @@
         204.84,
         -68.2
       ],
-      "summary": "Korir is the bitter Nord Jarl of Winterhold who resides in the Jarl's Longhouse. Deeply resentful of the College of Winterhold, which he blames for the catastrophic Great Collapse that destroyed most of the city, he fervently supports Ulfric Stormcloak's rebellion.",
+      "summary": "Korir is the Nord Jarl of Winterhold who resides in the Jarl's Longhouse with his wife Thaena and their son Assur. He will generally be found there all day except around 7pm, when he takes his son to The Frozen Hearth for a few hours. Should the Imperials take over Winterhold, however, Korir will be replaced by Kraldar and he and his family will be exiled to Brunwulf Free-Winter's House, instead of the Palace of the Kings in Windhelm like other Stormcloak-allied jarls.",
       "image": "https://images.uesp.net/thumb/a/af/SR-npc-Korir.jpg/400px-SR-npc-Korir.jpg",
       "importance": 8
     },
@@ -14699,6 +14699,83 @@
       "relation": "great_war_espionage",
       "label": "Accused of Treason in Great War",
       "is_cross_realm": true
+    },
+    {
+      "source": "torygg",
+      "target": "stormcloaks",
+      "relation": "canonical_mention",
+      "label": "Chronicler Lore Link",
+      "is_cross_realm": false
+    },
+    {
+      "source": "torygg",
+      "target": "windhelm",
+      "relation": "canonical_mention",
+      "label": "Chronicler Lore Link",
+      "is_cross_realm": false
+    },
+    {
+      "source": "torygg",
+      "target": "gerdur",
+      "relation": "canonical_mention",
+      "label": "Chronicler Lore Link",
+      "is_cross_realm": false
+    },
+    {
+      "source": "torygg",
+      "target": "alvor",
+      "relation": "canonical_mention",
+      "label": "Chronicler Lore Link",
+      "is_cross_realm": false
+    },
+    {
+      "source": "torygg",
+      "target": "talos",
+      "relation": "canonical_mention",
+      "label": "Chronicler Lore Link",
+      "is_cross_realm": false
+    },
+    {
+      "source": "torygg",
+      "target": "hadvar",
+      "relation": "canonical_mention",
+      "label": "Chronicler Lore Link",
+      "is_cross_realm": false
+    },
+    {
+      "source": "torygg",
+      "target": "legate_rikke",
+      "relation": "canonical_mention",
+      "label": "Chronicler Lore Link",
+      "is_cross_realm": false
+    },
+    {
+      "source": "torygg",
+      "target": "imperial_legion",
+      "relation": "canonical_mention",
+      "label": "Chronicler Lore Link",
+      "is_cross_realm": false
+    },
+    {
+      "source": "torygg",
+      "target": "sovngarde",
+      "relation": "canonical_mention",
+      "label": "Chronicler Lore Link",
+      "is_cross_realm": false
+    },
+    {
+      "source": "torygg",
+      "target": "olaf_one-eye",
+      "relation": "canonical_mention",
+      "label": "Chronicler Lore Link",
+      "is_cross_realm": false
+    },
+    {
+      "source": "jarl_korir",
+      "target": "windhelm",
+      "relation": "canonical_mention",
+      "label": "Chronicler Lore Link",
+      "is_cross_realm": false
     }
   ]
 }

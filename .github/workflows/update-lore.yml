@@ -1,0 +1,41 @@
+name: Weekly UESP Lore Graph Update
+
+on:
+  schedule:
+    # Roda todo domingo às 03:00 UTC (meia-noite de domingo no horário de Brasília)
+    - cron: '0 3 * * 0'
+  workflow_dispatch: # Permite disparar manualmente com 1 clique pela aba Actions do GitHub
+
+permissions:
+  contents: write
+
+jobs:
+  update-lore:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Harvest lore data from UESP API
+        run: |
+          python scripts/harvest_lore.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          if git status --porcelain | grep -q "src/data/tes_lore_graph.json"; then
+            echo "Mudanças detectadas no grafo de lore. Commitando..."
+            git add src/data/tes_lore_graph.json
+            git commit -m "chore(data): weekly update of TES lore graph from UESP"
+            git push
+          else
+            echo "Nenhuma atualização de lore detectada na UESP nesta semana."
+          fi
