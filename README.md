@@ -2,6 +2,8 @@
 
 Interactive 3D celestial lore graph of The Elder Scrolls universe, built with Three.js, React, and TypeScript.
 
+🌌 **Live Demo**: [https://aetheriusgraph.vercel.app/](https://aetheriusgraph.vercel.app/)
+
 AetheriusGraph maps gods, daedric princes, dragons, heroes, factions, and artifacts as an interconnected firmament of stars. Every entity connects through history, mythic patronage, alliances, and wars, based on data verified from the Unofficial Elder Scrolls Pages (UESP).
 
 ## Key Features
@@ -68,9 +70,21 @@ npm run build
 
 The production output will be generated in the `dist` directory.
 
-## Data Pipeline
+## Data Pipeline & Automated Updates
+ 
+The dataset in `src/data/tes_lore_graph.json` contains validated entities, positions, and connections.
 
-The dataset in `src/data/tes_lore_graph.json` contains validated entities, positions, and connections. To refresh or query the live UESP MediaWiki API:
+### Automated Weekly Sync (GitHub Actions)
+
+A scheduled GitHub Actions workflow ([`.github/workflows/update-lore.yml`](.github/workflows/update-lore.yml)) runs every Sunday to:
+* Query the official UESP MediaWiki API for updated lore summaries and character portraits.
+* Mine new canonical mentions and cross-realm lore connections.
+* Commit updated datasets directly to `main`, automatically triggering a production redeployment on Vercel.
+* Can also be triggered manually anytime via the **Actions** tab on GitHub (**Run workflow**).
+
+### Manual Harvesting
+
+To manually query and refresh data from the live UESP MediaWiki API locally:
 
 ```bash
 python scripts/harvest_lore.py
