@@ -87,7 +87,7 @@
       }
     },
     "total_nodes": 205,
-    "total_edges": 1600
+    "total_edges": 1602
   },
   "nodes": [
     {
@@ -647,7 +647,7 @@
         82.51,
         30.84
       ],
-      "summary": "Category:Lore-People-Chimer Almalexia, also known as Almalexia the Lover, Almalexia the Warden, and Ayem, was one of the three God-Kings who constituted the Tribunal, or Almsivi, where she is representing Alm, along with Vivec and Sotha Sil. She was very popular among the Dunmer, who called her \"Healing Mother\", \"Lady of Mercy\", \"Mother Morrowind\", \"Sacred Lady\", and Mercymother. They knew her as the source of compassion, sympathy, and forgiveness, the protector of the poor and weak, and the patron of teachers and healers. She resided in the temple city of Mournhold within the city of Almalexia, the capital of Morrowind, and was closely associated with House Indoril.",
+      "summary": "Category:Lore-People-Chimer Almalexia, also known as Almalexia the Lover, Almalexia the Warden, and Ayem, was one of the three God-Kings who constituted the Tribunal, or Almsivi, where she represented Alm, along with Vivec and Sotha Sil. She was very popular among the Dunmer, who called her \"Healing Mother\", \"Lady of Mercy\", \"Mother Morrowind\", \"Sacred Lady\", and Mercymother. They knew her as the source of compassion, sympathy, and forgiveness, the protector of the poor and weak, and the patron of teachers and healers. She resided in the temple city of Mournhold within the city of Almalexia, the capital of Morrowind, and was closely associated with House Indoril.",
       "image": "https://images.uesp.net/thumb/b/bb/TR-creature-Almalexia_04.jpg/317px-TR-creature-Almalexia_04.jpg",
       "importance": 14
     },
@@ -698,7 +698,7 @@
         74.91,
         66.44
       ],
-      "summary": "Dagoth Ur ( or ), originally Voryn Dagoth, also known as the Sharmat, as well as Awakened Lord of the Sixth House, Lord Dagoth and Father of the Mountain to his followers, was the immortal Lord High Councilor of House Dagoth. In Tribunal mythology, he is demonized as the Devil and the Enemy, False Dreamer, Devil Dagoth Ur, and Devil of Dagoth. In life, Voryn Dagoth was a close friend to the Hortator Indoril Nerevar, whom he considered his brother. In the First Era, he inadvertently caused the Battle of Red Mountain by informing Nerevar that House Dagoth had discovered the Dwemer's worship of a secret source of power, the Heart of Lorkhan, which the Chimer deemed profane and heretical. Accounts vary significantly on what actions he took before, during, and after the battle, but regardless, it resulted in Dagoth and the Sixth House being defeated and condemned as traitors, their names being largely erased from Dunmeri history by the Tribunal Temple. According to various accounts, including his own, he was struck down by Nerevar himself.",
+      "summary": "Dagoth Ur ( or ), originally Voryn Dagoth, also known as the Sharmat, as well as Awakened Lord of the Sixth House, Lord Dagoth and Father of the Mountain to his followers, was the immortal Lord High Councilor of House Dagoth and a key leader of the First Council. In Tribunal mythology, he is demonized as the Devil and the Enemy, False Dreamer, Devil Dagoth Ur, and Devil of Dagoth.",
       "image": "https://images.uesp.net/thumb/a/ad/LG-cardart-Dagoth_Ur.png/400px-LG-cardart-Dagoth_Ur.png",
       "importance": 11
     },
@@ -766,7 +766,7 @@
         294.08,
         -51.67
       ],
-      "summary": "Arch-Mage Shalidor, sometimes known as the Archmagus, the Spellbreaker, was an immensely powerful wizard from the First Era who had an understanding of magic few have ever matched, and his numerous but scattered writings are highly sought after. There are many legends surrounding Shalidor's life, such as how he built the city of Winterhold with a whispered spell, built the great Ice Fortress of Winterhold, how he stole the secret of life from Akatosh, and how he single-handedly fought against the Dwemer legions of clan Rourken at the (in which he bore his into battle). Many of these stories are believed to be hyperbole or outright fabrications. Shalidor stood at the forefront of a movement to enact higher standards among mages, and to discourage spell use among the common castes. This effort is dubiously credited with the original organization and formation of the schools of magic (Vanus Galerion is also often credited with the creation of the schools of magic) and the foundation of the College of Winterhold. Shalidor is considered the most famous arch-mage of the First Era, with his dedication to spellcraft and commitment to research unmatched by any before or since. Despite his reverence by most mages, some of Shalidor's greatest critics came about from thoses who failed his tests.",
+      "summary": "Arch-Mage Shalidor, sometimes known as the Archmagus, the Spellbreaker, was an immensely powerful wizard from the First Era who had an understanding of magic few have ever matched, and his numerous but scattered writings are highly sought after. Legends credit Shalidor with creating Winterhold with a whispered spell, building the Ice Fortress of Winterhold, stealing the secret of life from Akatosh, and battling the legions of the Dwemer clan Rourken at the (in which he bore his into battle). Many of these stories are believed to be hyperbole or outright fabrications. Shalidor stood at the forefront of a movement to enact higher standards among mages, and to discourage spell use among the common castes. This effort is dubiously credited with the original organization and formation of the schools of magic (Vanus Galerion is also often credited with the creation of the schools) and the foundation of the College of Winterhold. Shalidor is considered the most famous arch-mage of the First Era, with his dedication to spellcraft and commitment to research unmatched by any before or since. Despite his reverence by most mages, some of Shalidor's greatest critics came about from those who failed his tests.",
       "image": "https://images.uesp.net/thumb/6/6a/ON-npc-Arch-Mage_Shalidor.jpg/400px-ON-npc-Arch-Mage_Shalidor.jpg",
       "importance": 11
     },
@@ -14773,6 +14773,20 @@
     {
       "source": "jarl_korir",
       "target": "windhelm",
+      "relation": "canonical_mention",
+      "label": "Chronicler Lore Link",
+      "is_cross_realm": false
+    },
+    {
+      "source": "almalexia",
+      "target": "cyrodiil",
+      "relation": "canonical_mention",
+      "label": "Chronicler Lore Link",
+      "is_cross_realm": false
+    },
+    {
+      "source": "elder_scrolls",
+      "target": "hammerfell",
       "relation": "canonical_mention",
       "label": "Chronicler Lore Link",
       "is_cross_realm": false
