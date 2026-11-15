@@ -698,7 +698,7 @@
         74.91,
         66.44
       ],
-      "summary": "Dagoth Ur ( or ), originally Voryn Dagoth, also known as the Sharmat, as well as Awakened Lord of the Sixth House, Lord Dagoth and Father of the Mountain to his followers, was the immortal Lord High Councilor of House Dagoth and a key leader of the First Council. In Tribunal mythology, he is demonized as the Devil and the Enemy, False Dreamer, Devil Dagoth Ur, and Devil of Dagoth.",
+      "summary": "Dagoth Ur ( or ), originally Voryn Dagoth, also known as the Sharmat, as well as Awakened Lord of the Sixth House, Lord Dagoth and Father of the Mountain to his followers, and Father of Lies to the Ashlanders, was the immortal Lord High Councilor of House Dagoth and a key leader of the First Council. In Tribunal mythology, he is demonized as the Devil and the Enemy, False Dreamer, Devil Dagoth Ur, and Devil of Dagoth.",
       "image": "https://images.uesp.net/thumb/a/ad/LG-cardart-Dagoth_Ur.png/400px-LG-cardart-Dagoth_Ur.png",
       "importance": 11
     },
@@ -3248,7 +3248,7 @@
         -0.1,
         54.67
       ],
-      "summary": "{} Hammerfell, once known as Hegathe, the Deathland (or Deathlands), and Volenfell, is a region in the west of Tamriel. It has been described as a province, kingdom, or republic throughout its history. Situated between Skyrim, Cyrodiil, and High Rock, Hammerfell features diverse landscapes including beaches, jungles, grasslands, mountains, swamps, and the vast Alik'r desert. It is inhabited by the human race of Redguards, who migrated to Tamriel following the partial sinking of their homeland, Yokuda. While predominantly urban and maritime, with bustling port cities, the interior of Hammerfell is sparsely populated with small farms and nomadic tribes.",
+      "summary": "{} Hammerfell, once known as Hegathe, the Deathland (or Deathlands), and Volenfell, is a region in the west of Tamriel. It has been described as a province, kingdom, or republic throughout its history. Situated between Skyrim, Cyrodiil, and High Rock, Hammerfell features diverse landscapes including beaches, jungles, grasslands, mountains, swamps, and the vast Alik'r desert. It is inhabited by the human race of Redguards, who migrated to Tamriel following the partial sinking of their homeland, Yokuda. While predominantly urban and maritime, with bustling port cities, the interior of Hammerfell is sparsely populated with small farms and nomadic tribes. Populations of Orcs, Reachmen, Centaurs, Goblin-ken, Lamia, and sand giants also inhabit the province. The Dwemer, Duraki, Keptu, Perena, and other Nedic tribes historically made their home in the province.",
       "image": "https://images.uesp.net/thumb/d/d5/LO-map-Hammerfell_%28Anthology%29.jpg/400px-LO-map-Hammerfell_%28Anthology%29.jpg",
       "importance": 10
     },
@@ -3350,7 +3350,7 @@
         -611.46,
         -6.45
       ],
-      "summary": "The Skeleton Key (also called the Skeleton's Key) is a Daedric artifact of the Daedric Prince Nocturnal. In appearance, the Skeleton Key doesn't always take the form of a key, and sometimes manifests as a lockpick instead. In its key form, it can be used to unlock any lock. As a lockpick, it is nigh unbreakable and can get past even the toughest locks. The two limitations placed on the Key by wizards who sought to protect their storehouses were that the Key could only be used once a day and it would never be the property of one thief for too long, eventually disappearing.",
+      "summary": "The Skeleton Key (also called the Skeleton's KeySkeleton's Key) is a Daedric artifact of the Daedric Prince . In appearance, the Skeleton Key doesn't always take the form of a key, and sometimes manifests as a lockpick instead. In its key form, it can be used to unlock any lock. As a lockpick, it is nigh unbreakable and can get past even the toughest locks. The two limitations placed on the Key by wizards who sought to protect their storehouses were that the Key could only be used once a day and it would never be the property of one thief for too long, eventually disappearing.",
       "image": "https://images.uesp.net/thumb/1/18/OBR-item-Skeleton_Key.jpg/400px-OBR-item-Skeleton_Key.jpg",
       "importance": 11
     },
@@ -3384,7 +3384,7 @@
         -629.04,
         26.51
       ],
-      "summary": "Mehrunes' Razor (sometimes Mehrunes RazorMehrunes Razor), also called the Dagger of the Final WoundsDagger of the Final Wounds, the Bane of the RighteousBane of the Righteous, and the KingslayerKingslayer, is a Daedric artifactartifact created by the Daedric PrinceDaedric Prince Mehrunes DagonMehrunes Dagon. This powerful ebony dagger has the ability to kill instantly, as there is a small chance that Dagon will claim the souls of those struck by the Razor. It is Daedric in appearance, emblazoned with Daedric script and seemingly able to drink the light that hits it.",
+      "summary": "Mehrunes' Razor (sometimes Mehrunes RazorMehrunes Razor), also called the Dagger of the Final WoundsDagger of the Final Wounds, the Bane of the RighteousBane of the Righteous, and the KingslayerKingslayer, is a Daedric artifact created by the Daedric Prince . This powerful dagger has the ability to kill instantly, as there is a small chance that Dagon will claim the souls of those struck by the Razor. It is Daedric in appearance, emblazoned with Daedric script and seemingly able to drink the light that hits it.",
       "image": "https://images.uesp.net/thumb/3/39/OBR-item-Mehrunes_Razor_02.jpg/400px-OBR-item-Mehrunes_Razor_02.jpg",
       "importance": 11
     },
@@ -3401,7 +3401,7 @@
         -630.34,
         29.6
       ],
-      "summary": "The Mace of Molag Bal, also known as the Vampire's Mace, is a Daedric artifact attributed to Molag Bal, the Lord of Domination and Enslavement. Its enchantment drains the stamina and magicka of its victims and transfers them to the bearer. It also has been known to have the ability to transfer an enemy's strength to its wielder or trap their soul. It has been said to be a good weapon of choice for vanquishing wizards.",
+      "summary": "The Mace of Molag Bal, also known as the Vampire's MaceVampire's Mace, is a Daedric artifact attributed to , the Lord of Domination and Enslavement. Its enchantment drains the stamina and magicka of its victims and transfers them to the bearer. It also has been known to have the ability to transfer an enemy's strength to its wielder or trap their soul. It has been said to be a good weapon of choice for vanquishing wizards.",
       "image": "https://images.uesp.net/thumb/0/0b/ON-skill-Swing.jpg/400px-ON-skill-Swing.jpg",
       "importance": 11
     },
@@ -3469,7 +3469,7 @@
         -586.96,
         -27.86
       ],
-      "summary": "Volendrung, also known as the Hammer of Might, is an ancient artifact created by the Dwarven Rourken clan. It is known to manifest as a warhammer of Dwarven Metal, its handle emblazoned with blunt Dwarven runes. For unknown reasons, Volendrung became a Daedric artifact of Malacath. Therefore, it is culturally linked to both the Dwemer and the Daedra. It earns its name with its capability to demolish even the walls of enemy keeps with ease. It is enchanted with the ability to paralyze foes comparable to that of a Medusa's gaze. It is also known for draining those it strikes of their strength. The hammer is prone to disappearing like its Dwarven creators, sometimes resurfacing in days, sometimes in eons.",
+      "summary": "Volendrung, also known as the Hammer of MightHammer of Might, is an ancient artifact created by the Dwarven Rourken clan. It is known to manifest as a warhammer of Dwarven Metal, its handle emblazoned with blunt Dwarven runes. For unknown reasons, Volendrung became a Daedric artifact of . Therefore, it is culturally linked to both the Dwemer and the Daedra. It earns its name with its capability to demolish even the walls of enemy keeps with ease. It is enchanted with the ability to paralyze foes comparable to that of a Medusa's gaze. It is also known for draining those it strikes of their strength. The hammer is prone to disappearing like its Dwarven creators, sometimes resurfacing in days, sometimes in eons.",
       "image": "https://images.uesp.net/thumb/9/97/LG-cardart-Volendrung_02.jpg/268px-LG-cardart-Volendrung_02.jpg",
       "importance": 11
     },
@@ -3486,7 +3486,7 @@
         -567.25,
         -29.36
       ],
-      "summary": "Dawnbreaker is a Daedric artifact created by the Daedric Prince Meridia. It was forged \"in a holy light that breaks upon\" the Prince's foes. In appearance it is a longsword containing a distinctive light emitting crystal in its cross-guard known as the Dawnstar Gem. It was created with the intention of \"burning away corruption and false life\". As such, it is particularly effective against Meridia's \"foes\": this primarily applies to the undead, although its powers can also be used on Daedra and werewolves.",
+      "summary": "Dawnbreaker is a Daedric artifact created by the Daedric Prince . It was forged \"in a holy light that breaks upon\" the Prince's foes. In appearance it is a longsword containing a distinctive light emitting crystal in its cross-guard known as the Dawnstar Gem. It was created with the intention of \"burning away corruption and false life\". As such, it is particularly effective against Meridia's \"foes\": this primarily applies to the undead, although its powers can also be used on Daedra and werewolves.",
       "image": "https://images.uesp.net/thumb/f/f1/LG-cardart-Dawnbreaker_02.jpg/266px-LG-cardart-Dawnbreaker_02.jpg",
       "importance": 11
     },
@@ -3503,7 +3503,7 @@
         -542.81,
         -17.71
       ],
-      "summary": "The Ebony Blade, also known as the Vampire or the Leech, is a Daedric artifact created by the Daedric Prince Mephala. It resembles an ebony katana, and is considered to be an artifact of great evil, having the ability to absorb the life essence of those that it strikes. Part of the damage inflicted flows into the wielder as raw power, draining the victim of their health and sometimes stamina. It has also been known to fortify the wielder's skill at using long blades, magically silence opponents to prevent them from casting spells, and deceive victims. Khajiiti myths do not mention the blade by name, but instead refer to it as 'the killing word of the Spider' and 'the black edge of shadow'.",
+      "summary": "The Ebony Blade, also known as the VampireVampire or the Leechthe Leech, is a Daedric artifact created by the Daedric Prince . It resembles an katana, and is considered to be an artifact of great evil, having the ability to absorb the life essence of those that it strikes. Part of the damage inflicted flows into the wielder as raw power, draining the victim of their health and sometimes stamina. It has also been known to fortify the wielder's skill at using long blades, magically silence opponents to prevent them from casting spells, and deceive victims. Khajiiti myths do not mention the blade by name, but instead refer to it as 'the killing word of the Spider' and 'the black edge of shadow'.",
       "image": "https://images.uesp.net/thumb/0/00/ON-crown_store-Ebony_Blade.jpg/400px-ON-crown_store-Ebony_Blade.jpg",
       "importance": 11
     },
@@ -3554,7 +3554,7 @@
         484.95,
         -8.23
       ],
-      "summary": "Auriel's Bow, (also spelled Auri-El's Bow) is an artifact used by the elven god Auriel. Although it commonly takes the form of a modest elven moonstone bow, it has also appeared made of ebony. Either way, it is one of the most powerful weapons in Tamriel. The bow draws its power from Aetherius itself, channeling it through the . It has the ability to turn any arrow into a \"missile of death\", although its enchantment effects vary: it has been known to cause magical fire or shock damage, drain an opponent's stamina and magicka reserves, or harness the power of the sun. It can also make the wielder immune to lesser attacks, and is especially devastating when used against the undead. Occasionally it can be seemingly unenchanted. Without Auriel's power behind it, however, the bow uses its own store of energy for its power. Once exhausted of this energy, the bow will vanish, abandoning its owner to reappear elsewhere.",
+      "summary": "Auriel's Bow, (also spelled Auri-El's BowAuri-El's Bow) is an artifact used by the elven god Auriel. Although it commonly takes the form of a modest elven moonstone bow, it has also appeared made of . Either way, it is one of the most powerful weapons in Tamriel. The bow draws its power from Aetherius itself, channeling it through the . It has the ability to turn any arrow into a \"missile of death\", although its enchantment effects vary: it has been known to cause magical fire or shock damage, drain an opponent's stamina and magicka reserves, or harness the power of the sun. It can also make the wielder immune to lesser attacks, and is especially devastating when used against the undead. Occasionally it can be seemingly unenchanted. Without Auriel's power behind it, however, the bow uses its own store of energy for its power. Once exhausted of this energy, the bow will vanish, abandoning its owner to reappear elsewhere.",
       "image": "https://images.uesp.net/thumb/1/14/SR-item-Auriel%27s_Bow.jpg/400px-SR-item-Auriel%27s_Bow.jpg",
       "importance": 11
     },
